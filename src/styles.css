@@ -1,1 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
 /* You can add global styles to this file, and also import other style files */
+body {
+	background-color: black;
+	border: 1px solid;
+	border-color: rgb(241, 88, 19);
+	height: 100vh;
+}
