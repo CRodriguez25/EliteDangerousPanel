@@ -1,7 +1,30 @@
 body {
 	background-color: black;
+	color:white;
 }
 
-.test {
-	background-color: black;
+.filter-container {
+	padding-top: 3vh;
+	width: 100vw;
+	height: 97vh;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	content: " ";
+	background: linear-gradient(rgba(241, 88, 19, 0) 50%, rgba(197, 69, 12, 0.10) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.16), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+	background-size: 100% 2px, 3px 100%;
 }
+
+.screen {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.button-column {
+	height: 100%;
+}
+
