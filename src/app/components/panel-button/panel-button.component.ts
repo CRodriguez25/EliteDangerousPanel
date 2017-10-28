@@ -12,6 +12,8 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   public url: string;
   public glitching: boolean = false;
   public delay: number;
+  public clicked: boolean = false;
+  
   constructor(private sanitizer: DomSanitizer, eventFeedService: EventFeedService) {
       eventFeedService.subscribe(this, ["HullDamage"]);
       this.delay = this.getDelay();
@@ -19,6 +21,13 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
 
   sanitize(url:string){
     return this.sanitizer.bypassSecurityTrustUrl(url);
+  }
+  
+  pressButton() {
+  	this.clicked = true;	
+  	setTimeout(() => {
+  		this.clicked = false;
+  	}, 1200);
   }
 
   receiveEvent(event) {
@@ -36,7 +45,5 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
         return Math.floor(Math.random() * (4 - 0)) + 0;
     }
 
-  ngOnInit() {
-  
-  }
+  ngOnInit() { }
 }

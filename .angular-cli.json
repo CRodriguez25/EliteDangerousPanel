@@ -55,6 +55,7 @@
   },
   "defaults": {
     "serve": {
+	"host": "104.238.141.118"
     },
 
     "styleExt": "css",

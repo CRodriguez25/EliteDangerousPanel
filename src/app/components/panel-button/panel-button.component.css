@@ -1,5 +1,5 @@
 .btn {
-    background-color: rgba(255, 113, 0, .15) !important;
+    background-color: rgba(255, 113, 0, .15);
     border: none;
     width: 100%;
     color: rgba(255, 113, 0, 1) !important;
@@ -8,24 +8,17 @@
     font-size: 1.4em;
 }
 
-.btn:hover {
-    background-color: rgba(195, 97, 31, .65);
-    color: rgba(255, 113, 0, 1) !important;
+
+.btn.clicked {
+	-webkit-appearance: none;
+	outline:0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
-.btn:active {
-    background-color: rgba(145, 97, 41, .75);
-}
 
-.btn:focus {outline:0;}
-
-.btn:visited {
-    color: rgba(255, 113, 0, 1) !important;
-}
-
-.btn:link {
-    color: rgba(255, 113, 0, 1) !important;
-}
+.glow {}
 
 .test {
     border: 10px solid green;
