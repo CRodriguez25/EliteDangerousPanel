@@ -1,6 +1,7 @@
 import { Input, Component, OnInit } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { IEventFeedSubscriber, EventFeedService } from '../../services/event-feed';
+import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-panel-button',
@@ -14,7 +15,7 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   public delay: number;
   public clicked: boolean = false;
   
-  constructor(private sanitizer: DomSanitizer, eventFeedService: EventFeedService) {
+  constructor(private sanitizer: DomSanitizer, eventFeedService: EventFeedService, private modalService: NgbModal) {
       eventFeedService.subscribe(this, ["HullDamage"]);
       this.delay = this.getDelay();
   }
@@ -23,11 +24,13 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
     return this.sanitizer.bypassSecurityTrustUrl(url);
   }
   
-  pressButton() {
+  pressButton(content) {
+  	debugger;
+  	this.modalService.open(content).result.then(() => {});
   	this.clicked = true;	
   	setTimeout(() => {
   		this.clicked = false;
-  	}, 1200);
+  	}, 75);
   }
 
   receiveEvent(event) {
@@ -42,7 +45,7 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   }
 
     getDelay() {
-        return Math.floor(Math.random() * (4 - 0)) + 0;
+        return Math.floor(Math.random() * 4);
     }
 
   ngOnInit() { }

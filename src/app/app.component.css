@@ -4,9 +4,9 @@ body {
 }
 
 .filter-container {
-	padding-top: 3vh;
+	padding-top: 3%;
+	overflow: none;
 	position: absolute;
-	overflow: hidden;
 	top: 0;
 	left: 0;
 	bottom: 0;
