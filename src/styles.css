@@ -1,4 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 html, body {
 	position: fixed;
@@ -22,19 +23,14 @@ body {
 
 .header {
     color: rgba(255, 113, 0, 1) !important;
-    font-size: 1.8em;
+    font-size: 3vw;
     text-shadow: 0px 0px 10px rgba(255, 113, 0, 1);
 }
 
-.divider {
-	width: 100px;
-	text-align: center;
-}
-
-.divider hr {
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;	
+.sub-header {
+    font-size: 2vw;
+    color: rgba(255, 113, 0, 1) !important;
+    text-shadow: 0px 0px 10px rgba(255, 113, 0, 1);
 }
 
 hr {
@@ -54,3 +50,18 @@ hr {
     float: right;
 }
 
+.center {
+    text-align: center;
+}
+
+
+/* DIALOG OVERRIDES */
+.mat-dialog-container {
+    background-color: rgba(0, 0, 0, .95) !important;
+    background: linear-gradient(rgba(241, 88, 19, 0) 50%, rgba(197, 69, 12, 0.10) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.16), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background-size: 100% 2px, 3px 100%;
+    -webkit-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1) !important;
+    -moz-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1) !important;
+    box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1) !important;
+    border-radius: 15px !important;
+}

@@ -9,7 +9,7 @@ export class EventFeedService {
         var windowRef = this.getWindowRef();
         this._eventSubscriptions = {};
         windowRef.PanelsApp = windowRef.PanelsApp || {};
-        windowRef.PanelsApp.receiveData = (event) => this.receiveData(event);
+        windowRef.PanelsApp.ReceiveData = (event) => this.receiveData(event);
     }
 
     public subscribe(newSubscriber: IEventFeedSubscriber, eventTypes: string[]) {

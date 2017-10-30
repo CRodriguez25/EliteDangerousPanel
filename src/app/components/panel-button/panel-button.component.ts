@@ -1,8 +1,7 @@
-import { Input, Component, OnInit } from '@angular/core';
+import { Input, Output, Component, OnInit, EventEmitter } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { IEventFeedSubscriber, EventFeedService } from '../../services/event-feed';
-import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
-
+import { PanelActionService } from '../../services/panel-action/panel-action.service';
 @Component({
   selector: 'app-panel-button',
   templateUrl: './panel-button.component.html',
@@ -10,43 +9,47 @@ import { NgbModal, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 })
 export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   @Input() buttonId: string;
+  @Input() buttonLabel: string;
+  @Input() isPanelAction: boolean = true;
+  @Output() onButtonPressed = new EventEmitter();
+
   public url: string;
   public glitching: boolean = false;
   public delay: number;
   public clicked: boolean = false;
   
-  constructor(private sanitizer: DomSanitizer, eventFeedService: EventFeedService, private modalService: NgbModal) {
-      eventFeedService.subscribe(this, ["HullDamage"]);
-      this.delay = this.getDelay();
-  }
+    constructor(private sanitizer: DomSanitizer, eventFeedService: EventFeedService, private panelActionService: PanelActionService) {
+        eventFeedService.subscribe(this, ["HullDamage", "HeatDamage", "HeatWarning"]);
+        this.delay = this.getDelay();
+    }
 
-  sanitize(url:string){
-    return this.sanitizer.bypassSecurityTrustUrl(url);
-  }
-  
-  pressButton(content) {
-  	debugger;
-  	this.modalService.open(content).result.then(() => {});
-  	this.clicked = true;	
-  	setTimeout(() => {
-  		this.clicked = false;
-  	}, 75);
-  }
+    pressButton(content) {
+  	    this.clicked = true;	
+  	    setTimeout(() => {
+  		    this.clicked = false;
+    	}, 75);
 
-  receiveEvent(event) {
-    if(event.event == "HullDamage") {
+        if (this.onButtonPressed != null) {
+            this.onButtonPressed.emit();
+        }
+
+        if(this.isPanelAction) {
+            this.panelActionService.sendPanelAcction(this.buttonId);
+        }
+    }
+
+    receiveEvent(event) {
         if (this.glitching) return;
         this.glitching = true;
         setTimeout(() => {
             this.glitching = false;
             this.delay = this.getDelay();
-        }, 1000);
+        }, 5000);
     }
-  }
 
     getDelay() {
         return Math.floor(Math.random() * 4);
     }
 
-  ngOnInit() { }
+    ngOnInit() { }
 }

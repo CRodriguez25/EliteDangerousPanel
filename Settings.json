@@ -1,0 +1,76 @@
+{  
+   "KeyBindings":{  
+      "Button 1":{  
+         "Type":0,
+         "Value":"m"
+      },
+      "Button 2":{  
+         "Type":0,
+         "Value":"n"
+      },
+      "Button 3":{  
+         "Type":0,
+         "Value":"{CTRLDOWN}{ALTDOWN}{SPACE}{ALTUP}{CTRLUP}"
+      },
+      "Button 4":{  
+         "Type":0,
+         "Value":"p"
+      },
+      "Button 5":{  
+         "Type":0,
+         "Value":"{PGDN}"
+      },
+      "Button 6":{  
+         "Type":0,
+         "Value":"{INS}"
+      },
+      "Button 7":{  
+         "Type":0,
+         "Value":"{HOME}"
+      },
+      "Button 8":{  
+         "Type":0,
+         "Value":"{END}"
+      },
+      "Button 9":{  
+         "Type":0,
+         "Value":"l"
+      },
+      "Button 10":{  
+         "Type":0,
+         "Value":"u"
+      },
+      "Button 11":{  
+         "Type":0,
+         "Value":"v"
+      },
+      "Button 12":{  
+         "Type":0,
+         "Value":"{SHIFTDOWN}{DEL}{SHIFTUP}"
+      },
+      "Scan Button Action":{  
+         "Type":0,
+         "Value":"n"
+      }
+   },
+   "LabelBindings":{  
+      "Button 1":"Galaxy Map",
+      "Button 2":"System Map",
+      "Button 3":"Camera Suite",
+      "Button 4":"Jump",
+      "Button 5":"Landing Gear",
+      "Button 6":"Cargo Scoop",
+      "Button 7":"Ship Lights",
+      "Button 8":"Jettison Cargo",
+      "Button 9":"Hardpoints",
+      "Button 10":"Heat Sink",
+      "Button 11":"Shield Cell Bank",
+      "Scan Button Action":"Open System Map",
+      "Dismiss Scan Popup":"Dismiss",
+      "Button 12":"Silent Running",
+      "Header 1":"Navigation",
+      "Header 2":"Ship Functions",
+      "Header 3":"Combat"
+   },
+   "Program":"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Elite Dangerous\\Products\\elite-dangerous-64\\EliteDangerous64.exe"
+}

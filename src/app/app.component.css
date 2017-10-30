@@ -4,7 +4,7 @@ body {
 }
 
 .filter-container {
-	padding-top: 3%;
+	padding-top: 1%;
 	overflow: none;
 	position: absolute;
 	top: 0;
@@ -25,5 +25,9 @@ body {
 
 .button-column {
 	height: 100%;
+}
+
+.elite-modal {
+    background-color: black;
 }
 
