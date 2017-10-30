@@ -10,7 +10,6 @@ import { PanelActionService } from '../../services/panel-action/panel-action.ser
 export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   @Input() buttonId: string;
   @Input() buttonLabel: string;
-  @Input() isPanelAction: boolean = true;
   @Output() onButtonPressed = new EventEmitter();
 
   public url: string;
@@ -33,7 +32,7 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
             this.onButtonPressed.emit();
         }
 
-        if(this.isPanelAction) {
+        if(this.buttonId != null) {
             this.panelActionService.sendPanelAcction(this.buttonId);
         }
     }

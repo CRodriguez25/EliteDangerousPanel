@@ -1,10 +1,10 @@
-<div *ngIf="scanEvent != null">
+<div *ngIf="bountyEvent != null">
     <div class="row">
         <div class="col-10">
-            <div class="header scan-event-header">{{scanEvent.BodyName}} - {{scanEvent.PlanetClass}}</div>
+            <div class="header scan-event-header">Bounty Claimed - {{bountyEvent.TotalReward}} CR</div>
         </div>
         <div class="col-2">
-            <img style="height: 5vh;" class="right" src='assets/planet.png'/>
+            <img style="height: 5vh;" class="right" src='assets/bounty.png'/>
         </div>
     </div>
     <div class="row">
@@ -13,67 +13,34 @@
         </div>
     </div>
     <div class="row scan-content">
-        <div [class.col-12]="!scanEvent.Materials" [class.col-6]="scanEvent.Materials">
+        <div class="col-12">
             <div class="row">
                 <div class="col-12">
-                    <div class="sub-header center">Statistics</div>
-                    <hr *ngIf="scanEvent.Materials" class="d-none d-md-block" />
+                    <div class="sub-header center">Reward Breakdown</div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
-                    <div class="sub-header right">Distance:</div>
-                </div>
-                <div class="col-6">
-                    <div class="sub-header">{{scanEvent.DistanceFromArrivalLS}} ls</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="sub-header right">Terraform State:</div>
-                </div>
-                <div class="col-6">
-                    <div class="sub-header" *ngIf="scanEvent.TerraformState == null || scanEvent.TerraformState === ''">Not Terraformable</div>
-                    <div class="sub-header" *ngIf="scanEvent.TerraformState">{{scanEvent.TerraformState}}</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="sub-header right">Atmosphere:</div>
-                </div>
-                <div class="col-6">
-                    <div class="sub-header">{{scanEvent.AtmosphereType}}</div>
-                </div>
-            </div>
-        </div>
-        <div *ngIf="scanEvent.Materials" class="col-6">
-            <div class="row">
-                <div class="col-12">
-                    <div class="sub-header center">Materials</div>
+                <div class="col-6 offset-3">
                     <hr class="d-none d-md-block" />
                 </div>
             </div>
-            <div *ngFor="let material of scanEvent.Materials">
+            <div *ngFor="let reward of bountyEvent.Rewards">
                 <div class="row">
                     <div class="col-6">
-                        <div class="sub-header right">{{material.Name | capitalize}}:</div>
+                        <div class="sub-header right">{{reward.Faction}}:</div>
                     </div>
                     <div class="col-6">
-                        <div class="sub-header">{{material.Percent}}%</div>
+                        <div class="sub-header">{{reward.Reward}} CR</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="row action-bar">
-        <div class="col-6">
-            <app-panel-button [buttonId]="'Scan Button Action'" [buttonLabel]='"$$Scan Button Action$$"'></app-panel-button>
-        </div>
-        <div class="col-6">
+        <div class="col-12">
             <app-panel-button 
                 [buttonLabel]="'$$Dismiss Scan Popup$$'" 
-                (onButtonPressed)="close()" 
-                [isPanelAction]="false">
+                (onButtonPressed)="close()">
             </app-panel-button>
         </div>
     </div>

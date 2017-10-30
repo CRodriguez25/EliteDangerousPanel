@@ -7,11 +7,13 @@ import { EventFeedService } from './services/event-feed';
 import { MatDialogModule } from '@angular/material';
 import { ScanModalComponent } from './services/scanning-handler/scan-modal/scan-modal.component';
 import { ScanningHandlerService } from './services/scanning-handler/scanning-handler.service';
+import { BountyHandlerService } from './services/bounty-handler/bounty-handler.service';
+import { BountyModalComponent } from './services/bounty-handler/bounty-modal/bounty-modal.component';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { PanelActionService } from './services/panel-action/panel-action.service';
-import { BountyModalComponent } from './services/bounty-handler/bounty-modal/bounty-modal.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +29,8 @@ import { BountyModalComponent } from './services/bounty-handler/bounty-modal/bou
     BrowserAnimationsModule,
     HttpClientModule
   ],
-  providers: [EventFeedService, ScanningHandlerService, PanelActionService],
+  providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService],
   bootstrap: [AppComponent],
-  entryComponents: [ScanModalComponent]
+  entryComponents: [ScanModalComponent, BountyModalComponent]
 })
 export class AppModule { }

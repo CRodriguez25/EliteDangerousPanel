@@ -10,9 +10,9 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 export class BountyModalComponent {
     public bountyEvent: any = null;
 
-    constructor(public dialogRef: MatDialogRef<ScanModalComponent>,
+    constructor(public dialogRef: MatDialogRef<BountyModalComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any) { 
-        this.scanEvent = data.event;        
+        this.bountyEvent = data.event;        
     }
 
     public close(): void {
