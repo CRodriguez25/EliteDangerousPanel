@@ -11,13 +11,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { PanelActionService } from './services/panel-action/panel-action.service';
+import { BountyModalComponent } from './services/bounty-handler/bounty-modal/bounty-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PanelButtonComponent,
     ScanModalComponent,
-    CapitalizePipe
+    CapitalizePipe,
+    BountyModalComponent
   ],
   imports: [
     BrowserModule,
