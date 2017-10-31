@@ -17,6 +17,6 @@ gulp.task('package', () => {
         return merge(
             gulp.src(['./data_feeds/**/*'], {base: '.'}),
             gulp.src(['./Settings.json', './dist/**/*', '!./dist/**/*.js.map'])
-        ).pipe(zip.dest('./panel-package/Elite Dangerous.zip'));
+        ).pipe(zip.dest('./panel-package/Elite Dangerous.panelpkg'));
     });
 });
