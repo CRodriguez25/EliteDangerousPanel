@@ -17,21 +17,18 @@
     box-shadow: none;
 }
 
-
-.glow {}
-
 .test {
     border: 10px solid green;
 }
 
 .glitch.delay-0 {
-      -webkit-animation: glitch 550ms infinite;
-  -webkit-animation-delay: -30ms;
+    -webkit-animation: glitch 550ms infinite;
+    -webkit-animation-delay: -30ms;
 }
 
 .glitch.delay-1 {
-      -webkit-animation: glitch 550ms infinite;
-  -webkit-animation-delay: -50ms;
+    -webkit-animation: glitch 550ms infinite;
+    -webkit-animation-delay: -50ms;
 
 }
 

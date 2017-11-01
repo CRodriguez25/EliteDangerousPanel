@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { PanelButtonComponent } from './components/panel-button/panel-button.component';
 import { EventFeedService } from './services/event-feed';
-import { MatDialogModule } from '@angular/material';
+import { MatDialogModule, MatTabsModule } from '@angular/material';
 import { ScanModalComponent } from './services/scanning-handler/scan-modal/scan-modal.component';
 import { ScanningHandlerService } from './services/scanning-handler/scanning-handler.service';
 import { BountyHandlerService } from './services/bounty-handler/bounty-handler.service';
@@ -27,7 +27,8 @@ import { PanelActionService } from './services/panel-action/panel-action.service
     BrowserModule,
     MatDialogModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTabsModule
   ],
   providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService],
   bootstrap: [AppComponent],

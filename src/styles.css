@@ -65,3 +65,44 @@ hr {
     box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1) !important;
     border-radius: 15px !important;
 }
+
+
+.mat-tab-body-wrapper {
+    height: 100%;
+}
+
+.demo-tab-group {
+  height: 100%;
+}
+
+.mat-tab-label {
+    background-color: rgba(255, 113, 0, .15) !important;
+    opacity: 1 !important;
+    color: rgba(255, 113, 0, 1) !important;
+    height: 80%;
+    border: 1px solid #c3611f;
+    border-bottom: none;
+    font-size: 2vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 10vh;
+    min-height: 6vh;
+}
+
+.mat-tab-list {
+    border-bottom: 2px solid #c3611f;
+}
+
+.mat-tab-label-active {
+    -webkit-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+    -moz-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+    box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+}
+
+.mat-ink-bar {
+    display: none;
+}
+
+.mat-tab-body {
+    padding-top: 5vh;
+}

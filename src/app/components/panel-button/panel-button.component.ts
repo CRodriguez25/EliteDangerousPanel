@@ -26,7 +26,7 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
   	    this.clicked = true;	
   	    setTimeout(() => {
   		    this.clicked = false;
-    	}, 75);
+    	}, 105);
 
         if (this.onButtonPressed != null) {
             this.onButtonPressed.emit();
