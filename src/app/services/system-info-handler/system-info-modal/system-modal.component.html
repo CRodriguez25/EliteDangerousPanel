@@ -41,7 +41,7 @@
                     <div class="sub-header right">Allegiance:</div>
                 </div>
                 <div class="col-6">
-                	<div class="sub-header" *ngIf="systemInfo.SystemAllegience == ''">None</div>
+                	<div class="sub-header" *ngIf="systemInfo.SystemAllegience == null || systemInfo.SystemAllegience == ''">None</div>
                     <div class="sub-header" *ngIf="systemInfo.SystemAllegience != ''">{{systemInfo.SystemAllegiance}}</div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                     <hr class="d-none d-md-block" />
                 </div>
             </div>
-            <div *ngIf="systemInfo.Factions == null || systemInfo.Factions.length == 0">
+            <div *ngIf="systemInfo.Factions == null || systemInfo.Factions.length == 0" style="text-align: center;">
             	<span class="warring">No Factions In System</span>
             </div>
             <div *ngIf="systemInfo.Factions != null && systemInfo.Factions.length > 0">
