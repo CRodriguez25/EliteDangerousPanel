@@ -17,13 +17,11 @@ export class SystemInfoService implements IEventFeedSubscriber {
     }
 
     receiveEvent(event): void {
-        var system = event.StarSystem;
-        this.systemRepoService.getSystemData(system).then((response) => {
-            if (response == null) return;
-            this.modalService.closeAll();
-            let dialogRef = this.modalService.open(SystemModalComponent, {
+        var system = event.StarSystem;            
+        this.modalService.closeAll();
+        let dialogRef = this.modalService.open(SystemModalComponent, {
                 width: '80vw',
-                data: { systemInfo: response }
+                data: { systemInfo: event }
             })
         });
     }

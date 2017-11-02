@@ -1,7 +1,7 @@
 <div *ngIf="systemInfo != null">
     <div class="row">
         <div class="col-10">
-            <div class="header scan-event-header">Arriving at {{systemInfo.name}}</div>
+            <div class="header scan-event-header">Arriving at {{systemInfo.StarSystem}}</div>
         </div>
         <div class="col-2">
             <img style="height: 5vh;" class="right" src='assets/star.png'/>
@@ -25,7 +25,7 @@
                     <div class="sub-header right">Population:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.population}}</div>
+                    <div class="sub-header">{{systemInfo.Population}}</div>
                 </div>
             </div>
             <div class="row">
@@ -33,7 +33,7 @@
                     <div class="sub-header right">Government:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.government}}</div>
+                    <div class="sub-header">{{systemInfo.SystemGovernment}}</div>
                 </div>
             </div>
             <div class="row">
@@ -41,7 +41,7 @@
                     <div class="sub-header right">Allegiance:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.allegiance}}</div>
+                    <div class="sub-header">{{systemInfo.SystemAllegiance}}</div>
                 </div>
             </div>
             <div class="row">
@@ -49,7 +49,7 @@
                     <div class="sub-header right">State:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.state}}</div>
+                    <div class="sub-header">{{systemInfo.SystemState}}</div>
                 </div>
             </div>
             <div class="row">
