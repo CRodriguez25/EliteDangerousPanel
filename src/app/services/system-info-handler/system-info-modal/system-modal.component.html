@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="row scan-content">
-        <div class="col-6">
+        <div class="col-5">
             <div class="row">
                 <div class="col-12">
                     <div class="sub-header center">System Info</div>
@@ -22,26 +22,27 @@
             </div>
             <div class="row">
                 <div class="col-6">
-                    <div class="sub-header right">Population:</div>
-                </div>
-                <div class="col-6">
-                    <div class="sub-header">{{systemInfo.Population}}</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-6">
                     <div class="sub-header right">Government:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.SystemGovernment}}</div>
+                    <div class="sub-header">{{systemInfo.SystemGovernment_Localised}}</div>
                 </div>
             </div>
+            <div class="row">
+           		<div class="col-6">
+           			<div class="sub-header right">Economy:</div>
+           		</div>
+           		<div class="col-6">
+           			<div class="sub-header">{{systemInfo.SystemEconomy_Localised}}</div>
+           		</div>
+           	</div>
             <div class="row">
                 <div class="col-6">
                     <div class="sub-header right">Allegiance:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.SystemAllegiance}}</div>
+                	<div class="sub-header" *ngIf="systemInfo.SystemAllegience == ''">None</div>
+                    <div class="sub-header" *ngIf="systemInfo.SystemAllegience != ''">{{systemInfo.SystemAllegiance}}</div>
                 </div>
             </div>
             <div class="row">
@@ -49,7 +50,8 @@
                     <div class="sub-header right">State:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.SystemState}}</div>
+                	<div class="sub-header" *ngIf="systemInfo.ControllingFaction == null">None</div>
+                    <div class="sub-header" *ngIf="systemInfo.ControllingFaction != null">{{systemInfo.ControllingFaction.FactionState}}</div>
                 </div>
             </div>
             <div class="row">
@@ -57,26 +59,32 @@
                     <div class="sub-header right">Security:</div>
                 </div>
                 <div class="col-6">
-                    <div class="sub-header">{{systemInfo.security}}</div>
+                    <div class="sub-header">{{systemInfo.SystemSecurity_Localised}}</div>
                 </div>
             </div>
         </div>
-        <div class="col-6">
+        <div class="col-7">
             <div class="row">
                 <div class="col-12">
                     <div class="sub-header center">Factions</div>
                     <hr class="d-none d-md-block" />
                 </div>
             </div>
-            <div *ngFor="let faction of systemInfo.minor_faction_presences">
-                <div class="row">
-                    <div class="col-6">
-                        <span style="text-overflow: ellipsis" class="sub-header right" [class.warring]="faction.state.indexOf('War') >= 0">{{faction.factionDetails.name | capitalize}}:</span>
-                    </div>
-                    <div class="col-6">
-                        <div class="sub-header ">{{faction.influence}}%</div>
-                    </div>
-                </div>
+            <div *ngIf="systemInfo.Factions == null || systemInfo.Factions.length == 0">
+            	<span class="warring">No Factions In System</span>
+            </div>
+            <div *ngIf="systemInfo.Factions != null && systemInfo.Factions.length > 0">
+	            <div *ngFor="let faction of systemInfo.Factions">
+	                <div class="row">
+	                    <div class="col-9 right">
+	                        <div class="sub-header" [class.warring]="faction.FactionState.indexOf('War') >= 0">{{faction.Name | capitalize}}:
+	                        </div>
+	                    </div>
+	                    <div class="col-3 left">
+	                        <div class="sub-header ">{{faction.Influence | number:'1.0-2'}}%</div>
+	                    </div>
+	                </div>
+	            </div>
             </div>
         </div>
     </div>

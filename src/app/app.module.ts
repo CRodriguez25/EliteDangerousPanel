@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { DecimalPipe } from '@angular/common';
 import { AppComponent } from './app.component';
 import { PanelButtonComponent } from './components/panel-button/panel-button.component';
 import { EventFeedService } from './services/event-feed';
@@ -34,7 +34,7 @@ import { SystemRepoService } from './services/system-repository/system-repo.serv
     HttpClientModule,
     MatTabsModule
   ],
-  providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService, SystemInfoService, SystemRepoService],
+  providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService, SystemInfoService, SystemRepoService, DecimalPipe],
   bootstrap: [AppComponent],
   entryComponents: [ScanModalComponent, BountyModalComponent, SystemModalComponent]
 })

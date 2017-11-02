@@ -22,7 +22,7 @@ export class SystemInfoService implements IEventFeedSubscriber {
         let dialogRef = this.modalService.open(SystemModalComponent, {
                 width: '80vw',
                 data: { systemInfo: event }
-            })
         });
+        
     }
 }

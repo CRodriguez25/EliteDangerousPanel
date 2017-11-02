@@ -8,6 +8,30 @@
   <meta name="viewport" content="width=device-width, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script>
+  window.shouldShowDebug = false;
+  window.addEventListener('click', function (evt) {
+    if (evt.detail === 3) {
+        var event = JSON.parse(window.prompt("Enter debug event"));
+  		if(event == null) return;
+  		window.PanelsApp.ReceiveData(event);
+    }
+});
+  window.addEventListener('touchstart', function (evt) {
+    if (evt.touches.length === 4) {
+    	window.shouldShowDebug = true;
+    }
+  });
+  window.addEventListener('touchend', function (evt) {
+  	if (evt.touches.length === 0 && window.shouldShowDebug)
+  	{
+  		window.shouldShowDebug = false;
+  		var event = JSON.parse(window.prompt("Enter debug event"));
+  		if(event == null) return;
+  		window.PanelsApp.ReceiveData(event);
+  	}
+  });
+  </script>
 </head>
 <body ontouchstart="">
   <app-root></app-root>
