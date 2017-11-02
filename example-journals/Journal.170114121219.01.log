@@ -1,0 +1,107 @@
+{ "timestamp":"2017-01-14T20:12:19Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-14T20:12:58Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"Kith000", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T20:12:58Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T20:12:58Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":45, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T20:13:30Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T20:29:59Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-14T20:35:22Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\Screenshot_0002.bmp", "Width":1920, "Height":1080, "System":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b" }
+{ "timestamp":"2017-01-14T20:35:33Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\HighResScreenShot_2017-01-14_20-35-32.bmp", "Width":7680, "Height":4320, "System":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b" }
+{ "timestamp":"2017-01-14T20:41:39Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":{ "sulphur":1, "phosphorus":1 } }
+{ "timestamp":"2017-01-14T20:52:10Z", "event":"HullDamage", "Health":0.777931, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T20:53:16Z", "event":"CollectCargo", "Type":"ancienturn", "Stolen":false }
+{ "timestamp":"2017-01-14T21:02:39Z", "event":"HullDamage", "Health":0.558150, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T21:05:22Z", "event":"HullDamage", "Health":0.377411, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T21:06:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:06:37Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:06:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:06:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T21:06:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:07:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:07:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:07:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:07:51Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:07:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-14T21:08:10Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T21:08:18Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:08:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:08:29Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-14T21:11:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-01-14T21:11:49Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"cadmium", "DiscoveryNumber":7 }
+{ "timestamp":"2017-01-14T21:11:49Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-01-14T21:11:53Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"germanium", "DiscoveryNumber":8 }
+{ "timestamp":"2017-01-14T21:11:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"germanium", "Count":3 }
+{ "timestamp":"2017-01-14T21:11:55Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-01-14T21:12:04Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-01-14T21:12:09Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"tungsten", "DiscoveryNumber":9 }
+{ "timestamp":"2017-01-14T21:12:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"tungsten", "Count":3 }
+{ "timestamp":"2017-01-14T21:12:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-01-14T21:13:26Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"arsenic", "DiscoveryNumber":10 }
+{ "timestamp":"2017-01-14T21:13:26Z", "event":"MaterialCollected", "Category":"Raw", "Name":"arsenic", "Count":3 }
+{ "timestamp":"2017-01-14T21:13:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T21:13:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T21:13:38Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:13:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T21:17:57Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:18:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:18:09Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:18:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T21:19:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:19:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T21:19:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-14T21:19:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T21:21:57Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-14T21:27:23Z", "event":"Liftoff", "Latitude":-31.582617, "Longitude":-128.717133 }
+{ "timestamp":"2017-01-14T21:32:37Z", "event":"Touchdown", "Latitude":-31.800999, "Longitude":-128.926437 }
+{ "timestamp":"2017-01-14T21:32:44Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T21:43:43Z", "event":"HullDamage", "Health":0.796661, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T21:44:03Z", "event":"EjectCargo", "Type":"ancientcasket", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T21:46:06Z", "event":"CollectCargo", "Type":"ancienttablet", "Stolen":false }
+{ "timestamp":"2017-01-14T21:54:19Z", "event":"Screenshot", "Filename":"\\ED_Pictures\\HighResScreenShot_2017-01-14_21-54-19.bmp", "Width":7680, "Height":4320, "System":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b" }
+{ "timestamp":"2017-01-14T22:01:04Z", "event":"HullDamage", "Health":0.596536, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T22:02:25Z", "event":"CollectCargo", "Type":"AncientRelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:03:33Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-14T22:03:58Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:04:20Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-14T22:05:00Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:05:18Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:05:45Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:06:05Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:06:21Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:06:41Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:07:47Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:07:54Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:08:25Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:08:41Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:09:09Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:09:42Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T22:10:03Z", "event":"CollectCargo", "Type":"ancientrelic", "Stolen":false }
+{ "timestamp":"2017-01-14T22:10:50Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-14T22:12:57Z", "event":"Synthesis", "Name":"Ammo Basic", "Materials":{ "sulphur":2, "phosphorus":1 } }
+{ "timestamp":"2017-01-14T22:13:30Z", "event":"HullDamage", "Health":0.393749, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T22:57:01Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-15T01:34:19Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-15T01:34:19Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-15T01:34:19Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-15T01:35:54Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-15T01:35:55Z", "event":"Touchdown", "Latitude":-31.800993, "Longitude":-128.926437 }
+{ "timestamp":"2017-01-15T01:38:11Z", "event":"Liftoff", "Latitude":-31.800993, "Longitude":-128.926437 }
+{ "timestamp":"2017-01-15T01:38:24Z", "event":"Touchdown", "Latitude":-31.802563, "Longitude":-128.933044 }
+{ "timestamp":"2017-01-15T01:38:28Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Snarky_one;", "From_Localised":"CMDR Snarky_one", "Message":"I have one, not in it right now.", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:41:05Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Th3Sharky;", "From_Localised":"CMDR Th3Sharky", "Message":"an urn anyone?", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:41:10Z", "event":"SendText", "To":"local", "Message":"Has anyone had a problem with the SRV disappearing in your ship?" }
+{ "timestamp":"2017-01-15T01:41:19Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ysenm;", "From_Localised":"CMDR Ysenm", "Message":"Uhh.. no?", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:41:28Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Th3Sharky;", "From_Localised":"CMDR Th3Sharky", "Message":"no", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:41:32Z", "event":"SendText", "To":"local", "Message":"I just saw someone posted the issue online, and it just happened to me >.<" }
+{ "timestamp":"2017-01-15T01:42:00Z", "event":"SendText", "To":"local", "Message":"I was exploring on my own earlier. Logged out after docking back into the ship, logged in again and my SRV bay is empty" }
+{ "timestamp":"2017-01-15T01:42:38Z", "event":"Liftoff", "Latitude":-31.802563, "Longitude":-128.933044 }
+{ "timestamp":"2017-01-15T01:43:18Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":true }
+{ "timestamp":"2017-01-15T01:45:10Z", "event":"DockFighter" }
+{ "timestamp":"2017-01-15T01:45:58Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=iAmsOinSane;", "From_Localised":"CMDR iAmsOinSane", "Message":"wierd", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:46:22Z", "event":"Touchdown", "Latitude":-31.808622, "Longitude":-128.972855 }
+{ "timestamp":"2017-01-15T01:46:32Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Aldaris;", "From_Localised":"CMDR Aldaris", "Message":"did you log out and close launcher ", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:47:09Z", "event":"SendText", "To":"local", "Message":"I didn't close launcher. I'll try that" }
+{ "timestamp":"2017-01-15T01:47:32Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Kurok;", "From_Localised":"CMDR Kurok", "Message":"has anyone been getting patter data from the scans?", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:47:34Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Aldaris;", "From_Localised":"CMDR Aldaris", "Message":"if it does not work i would just get a new one", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:47:41Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Kurok;", "From_Localised":"CMDR Kurok", "Message":"pattern*", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:48:03Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Kurok;", "From_Localised":"CMDR Kurok", "Message":"pattern alpha obelisk data", "Channel":"local" }
+{ "timestamp":"2017-01-15T01:48:06Z", "event":"SendText", "To":"local", "Message":"Yeah I might just have to. I'm not really in a good exploration ship, so it takes a while to get to the nearest station though" }

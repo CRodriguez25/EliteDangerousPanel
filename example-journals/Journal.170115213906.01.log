@@ -1,0 +1,125 @@
+{ "timestamp":"2017-01-16T05:39:06Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-16T05:40:10Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T05:40:10Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T05:40:10Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-16T05:40:53Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-16T05:42:22Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T05:42:22Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T05:42:22Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-16T05:42:40Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-16T05:43:18Z", "event":"HullDamage", "Health":0.598587, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:44:07Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-01-16T05:44:07Z", "event":"WingAdd", "Name":"Ackron" }
+{ "timestamp":"2017-01-16T05:44:56Z", "event":"EjectCargo", "Type":"ancienttotem", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T05:45:06Z", "event":"CollectCargo", "Type":"ancienttotem", "Stolen":true }
+{ "timestamp":"2017-01-16T05:45:57Z", "event":"HullDamage", "Health":0.372292, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:45:57Z", "event":"HullDamage", "Health":0.156493, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:46:07Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-16T05:48:22Z", "event":"EjectCargo", "Type":"ancientcasket", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T05:50:50Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-16T05:51:16Z", "event":"MaterialDiscovered", "Category":"Encoded", "Name":"ancientculturaldata", "DiscoveryNumber":21 }
+{ "timestamp":"2017-01-16T05:51:16Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientculturaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:51:17Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienttechnologicaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:52:11Z", "event":"MaterialDiscovered", "Category":"Encoded", "Name":"ancientbiologicaldata", "DiscoveryNumber":22 }
+{ "timestamp":"2017-01-16T05:52:11Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientbiologicaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:52:33Z", "event":"HullDamage", "Health":0.793290, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:54:28Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:54:41Z", "event":"EjectCargo", "Type":"ancientcasket", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-16T05:54:48Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-16T05:56:32Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":{ "sulphur":1, "phosphorus":1 } }
+{ "timestamp":"2017-01-16T05:57:12Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":true }
+{ "timestamp":"2017-01-16T05:57:25Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:57:36Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienttechnologicaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:58:08Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientculturaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:59:49Z", "event":"HullDamage", "Health":0.592136, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:00:11Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientculturaldata", "Count":3 }
+{ "timestamp":"2017-01-16T06:00:12Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienttechnologicaldata", "Count":3 }
+{ "timestamp":"2017-01-16T06:00:30Z", "event":"EjectCargo", "Type":"ancientcasket", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T06:00:40Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-16T06:08:54Z", "event":"MaterialDiscovered", "Category":"Encoded", "Name":"ancientlanguagedata", "DiscoveryNumber":23 }
+{ "timestamp":"2017-01-16T06:08:54Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientlanguagedata", "Count":3 }
+{ "timestamp":"2017-01-16T06:13:34Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"evenin gents", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:13:41Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=GhostOrchid;", "From_Localised":"CMDR GhostOrchid", "Message":"o7", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:13:41Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"and... maybe ladies", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:13:54Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Vacaendack;", "From_Localised":"CMDR Vacaendack", "Message":"o7", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:13:55Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"any breakthroughs?", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:13:57Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"o7 evening", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:14:13Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ackron;", "From_Localised":"CMDR Ackron", "Message":"hello", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:14:31Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientculturaldata", "Count":3 }
+{ "timestamp":"2017-01-16T06:15:12Z", "event":"HullDamage", "Health":0.397726, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:15:57Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-16T06:16:10Z", "event":"Liftoff", "Latitude":-31.807037, "Longitude":-128.946930 }
+{ "timestamp":"2017-01-16T06:16:38Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ackron;", "From_Localised":"CMDR Ackron", "Message":"nothing major yet, trying to see if pairing the totem with any of the other artifacts gives a result", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:21:14Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=GhostOrchid;", "From_Localised":"CMDR GhostOrchid", "Message":"Your going to anger the guardians!", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:22:36Z", "event":"Touchdown", "Latitude":-31.781834, "Longitude":-128.947311 }
+{ "timestamp":"2017-01-16T06:22:38Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"man", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:22:50Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"why do people insist on parking their ships so close to the oblisks", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:22:55Z", "event":"SendText", "To":"local", "Message":"If it'll give us some answers, I'm kind of ok with it." }
+{ "timestamp":"2017-01-16T06:22:57Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"can't scan if you park too close", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:23:04Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-16T06:23:54Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"ye I have been trying to park far enough away that scanners w ill work. lemme know if im in the way though.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:25:20Z", "event":"HullDamage", "Health":0.797929, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:25:26Z", "event":"HullDamage", "Health":0.589652, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:26:38Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientlanguagedata", "Count":3 }
+{ "timestamp":"2017-01-16T06:27:10Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientlanguagedata", "Count":3 }
+{ "timestamp":"2017-01-16T06:27:11Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Count":3 }
+{ "timestamp":"2017-01-16T06:30:14Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-16T06:31:25Z", "event":"HullDamage", "Health":0.791057, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:32:05Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientlanguagedata", "Count":3 }
+{ "timestamp":"2017-01-16T06:32:22Z", "event":"CollectCargo", "Type":"ancientorb", "Stolen":true }
+{ "timestamp":"2017-01-16T06:34:03Z", "event":"EjectCargo", "Type":"ancientorb", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T06:34:50Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Trol_Hunter;", "From_Localised":"CMDR Trol_Hunter", "Message":"someone just gave me tech 9", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:35:10Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Trol_Hunter;", "From_Localised":"CMDR Trol_Hunter", "Message":"i have a casket and orb", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:35:30Z", "event":"SendText", "To":"local", "Message":"Might have been us. We're at an \"Orb\" area" }
+{ "timestamp":"2017-01-16T06:36:28Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Olmsted;", "From_Localised":"CMDR Olmsted", "Message":"has anyone gotten an entry lower than 6 in any of the categories", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:36:54Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Olmsted;", "From_Localised":"CMDR Olmsted", "Message":"i have 32 of them and none are between 1 and 6 in any of them", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:36:56Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Nope. That's why people think this is the \"second\" set of ruins, out of 3", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:08Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Olmsted;", "From_Localised":"CMDR Olmsted", "Message":"ye i thought the same thing", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:23Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"i've been stuck at 20 all day.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:32Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Been stuck at 27 for ages", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:37Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"there's somebody on the forums who's hit 38 or so.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:50Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"though he doesn't have 38 entries... which is strange", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:53Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"38 now? Thought it was 36", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:37:54Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancientlanguagedata", "Count":3 }
+{ "timestamp":"2017-01-16T06:38:00Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Olmsted;", "From_Localised":"CMDR Olmsted", "Message":"its the same thing on the other end i have only 2 over 15 in historical", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:38:04Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"i think i saw a post where he said 39", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:38:21Z", "event":"HullDamage", "Health":0.564418, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:38:37Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Olmsted;", "From_Localised":"CMDR Olmsted", "Message":"so there has to be other sets of ruins", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:38:45Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"i think so.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:39:00Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"maybe fdev will give us another hint this week", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:39:00Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Yeah, unless this one can change modes or something like that", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:39:09Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"i'm getting tired of looking at this site.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:39:21Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"especially when like 2/3 of the people here are just sitting in ships leeching", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:40:10Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Yeah I've found the only meaningful searching I've been able to do is with a group of 3 or more people working together", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:40:27Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Just got Culture 9.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:40:29Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Who just scanned", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:40:44Z", "event":"HullDamage", "Health":0.348427, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:40:58Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ackron;", "From_Localised":"CMDR Ackron", "Message":"what do you have on you?", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:41:08Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"In ship currently, so 2 of everything", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:41:16Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ackron;", "From_Localised":"CMDR Ackron", "Message":"ok", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:41:18Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"i'm rulling around with 2 tablets right now", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:41:39Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"im scanninc C section with tablet and orb atm", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:41:45Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Ackron;", "From_Localised":"CMDR Ackron", "Message":"we were running around with totems and orbs earlier, now i switched to casket and orb", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:02Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Maybe it was you Marfish. WHich ones have you most recently scanned?", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:07Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Trol_Hunter;", "From_Localised":"CMDR Trol_Hunter", "Message":"i wonder if the ruins give diffrent data during the day.", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:14Z", "event":"SendText", "To":"local", "Message":"Does anyone know if there's like an online spreadsheet somewhere?" }
+{ "timestamp":"2017-01-16T06:42:16Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"just got historical 9, ", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:23Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"think it was c 8 and 9", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:38Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"There is some info scattered through the forum, and a spreadsheet containing the base 13", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:42:48Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"Cheers Marfish. Noted", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:43:02Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"but I didn't get anything myself lol", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:43:10Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-16T06:43:35Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-16T06:43:41Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Pige0n;", "From_Localised":"CMDR Pige0n", "Message":"That sucks haha", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:43:53Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"casket casket, g5 - historical 9", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:44:04Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"its cool i got 3 earlier sitting in my ship reading the forum", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:44:38Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":true }
+{ "timestamp":"2017-01-16T06:44:41Z", "event":"CollectCargo", "Type":"ancienturn", "Stolen":false }
+{ "timestamp":"2017-01-16T06:44:54Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"the guardians are gonna come spank you for destroying their stuff", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:45:18Z", "event":"HullDamage", "Health":0.796014, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:45:18Z", "event":"HullDamage", "Health":0.589103, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:45:28Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"i just 2 fails and a success while scanning one", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:46:05Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"have casket and relic on me, think someone else might have gave me the success ", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:46:27Z", "event":"HullDamage", "Health":0.396852, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:47:01Z", "event":"HullDamage", "Health":0.193475, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T06:47:02Z", "event":"DockSRV" }

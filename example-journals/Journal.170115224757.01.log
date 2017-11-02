@@ -1,0 +1,32 @@
+{ "timestamp":"2017-01-16T06:47:57Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-16T06:48:49Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Open", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T06:48:49Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T06:48:49Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-16T06:49:28Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-16T06:49:28Z", "event":"Touchdown", "Latitude":-31.781834, "Longitude":-128.947311 }
+{ "timestamp":"2017-01-16T06:50:00Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T06:50:00Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T06:50:00Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-16T06:51:33Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-16T06:51:33Z", "event":"Touchdown", "Latitude":-31.781834, "Longitude":-128.947311 }
+{ "timestamp":"2017-01-16T06:51:50Z", "event":"Liftoff", "Latitude":-31.781834, "Longitude":-128.947311 }
+{ "timestamp":"2017-01-16T06:52:26Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"what's the jumprange like on a keelback", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:55:59Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"just got tech 8", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:56:18Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"cluster h, ob 10.. 2 orbs", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:57:35Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=[TSB]Auntystatic;", "From_Localised":"CMDR [TSB]Auntystatic", "Message":"yeah tech 8 is in my data log not sure if someone here has activated it or my ship transmitted it", "Channel":"local" }
+{ "timestamp":"2017-01-16T06:58:05Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":true }
+{ "timestamp":"2017-01-16T06:59:13Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=GhostOrchid;", "From_Localised":"CMDR GhostOrchid", "Message":"Cluster H?  I thought they only went to G", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:00:23Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Vacaendack;", "From_Localised":"CMDR Vacaendack", "Message":"H used to be part of E, is the long segment, now E is only the triangle and H is the long row", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:00:32Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"^", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:00:36Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"H is complicated too", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:00:42Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=GhostOrchid;", "From_Localised":"CMDR GhostOrchid", "Message":"oh ok, thanks", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:00:56Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"it's not one group unlocked by 1 artifact, but 4 seperate groups", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:01:36Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"half of one row is orb, half of the next row is totem, and half of the next is tablet", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:01:39Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Gneuros;", "From_Localised":"CMDR Gneuros", "Message":"the rest seems to be urn", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:02:13Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"do they reset without you relogging or not?", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:02:20Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=GhostOrchid;", "From_Localised":"CMDR GhostOrchid", "Message":"Ohh yea, I should have paid more attention onthe forums", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:03:01Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"I've noticed them just turning back on after scanning on PG and open. ", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:03:11Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"solo they seem to stay off till you re log ", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:03:22Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Marfish;", "From_Localised":"CMDR Marfish", "Message":"yeh but if you rescan them it says \"already accessed\"", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:04:07Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"ahh yea", "Channel":"local" }
+{ "timestamp":"2017-01-16T07:05:52Z", "event":"DockFighter" }

@@ -1,0 +1,7 @@
+{ "timestamp":"2017-01-18T02:48:47Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-18T02:49:49Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-18T02:49:49Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-18T02:49:49Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-18T02:51:24Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-18T02:52:05Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Piderman;", "From_Localised":"CMDR Piderman", "Message":"thanks whoever scanned tech12 just now. Ive been watching E14 to do tech12 and then it just popped up in my messages", "Channel":"local" }
+{ "timestamp":"2017-01-18T02:52:21Z", "event":"SendText", "To":"local", "Message":"Anyone know what's the closest station here?" }

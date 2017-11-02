@@ -1,0 +1,55 @@
+{ "timestamp":"2017-01-08T01:14:18Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r126898/r0 " }
+{ "timestamp":"2017-01-08T01:14:43Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Vulture", "ShipID":3, "GameMode":"Solo", "Credits":28023208, "Loan":0 }
+{ "timestamp":"2017-01-08T01:14:43Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-08T01:14:43Z", "event":"Progress", "Combat":11, "Trade":35, "Explore":21, "Empire":100, "Federation":70, "CQC":40 }
+{ "timestamp":"2017-01-08T01:15:14Z", "event":"Location", "Docked":true, "StationName":"Altshuller Port", "StationType":"Outpost", "StarSystem":"HO Bootis", "StarPos":[-23.125,73.844,27.406], "SystemAllegiance":"Federation", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Corporate;", "SystemGovernment_Localised":"Corporate", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Altshuller Port", "BodyType":"Station", "SystemFaction":"HO Bootis Corporation" }
+{ "timestamp":"2017-01-08T01:15:14Z", "event":"Docked", "StationName":"Altshuller Port", "StationType":"Outpost", "StarSystem":"HO Bootis", "StationFaction":"HO Bootis Corporation", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationAllegiance":"Federation", "StationEconomy":"$economy_Extraction;", "StationEconomy_Localised":"Extraction" }
+{ "timestamp":"2017-01-08T01:16:17Z", "event":"Undocked", "StationName":"Altshuller Port", "StationType":"Outpost" }
+{ "timestamp":"2017-01-08T01:16:44Z", "event":"ReceiveText", "From":"Altshuller Port", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:18:51Z", "event":"FSDJump", "StarSystem":"Berkanan", "StarPos":[-19.281,67.563,31.000], "SystemAllegiance":"Alliance", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Feudal;", "SystemGovernment_Localised":"Feudal", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "JumpDist":8.194, "FuelUsed":0.832406, "FuelLevel":5.291541, "SystemFaction":"Monarchy of Berkanan", "FactionState":"Boom" }
+{ "timestamp":"2017-01-08T01:19:26Z", "event":"FuelScoop", "Scooped":0.331882, "Total":5.623424 }
+{ "timestamp":"2017-01-08T01:21:30Z", "event":"SupercruiseExit", "StarSystem":"Berkanan", "Body":"Berkanan", "BodyType":"Star" }
+{ "timestamp":"2017-01-08T01:22:05Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Aisling Guardian;", "From_Localised":"Aisling Guardian", "Message":"$PowersPirate_OnStartScanCargo01;", "Message_Localised":"I'm looking for... donations.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:22:19Z", "event":"SupercruiseEntry", "StarSystem":"Berkanan" }
+{ "timestamp":"2017-01-08T01:22:47Z", "event":"FuelScoop", "Scooped":0.242377, "Total":5.865801 }
+{ "timestamp":"2017-01-08T01:28:37Z", "event":"USSDrop", "USSType":"$USS_Type_Salvage;", "USSType_Localised":"Degraded emissions detected", "USSThreat":0 }
+{ "timestamp":"2017-01-08T01:28:41Z", "event":"SupercruiseExit", "StarSystem":"Berkanan", "Body":"Berkanan 2 f", "BodyType":"Planet" }
+{ "timestamp":"2017-01-08T01:29:55Z", "event":"CollectCargo", "Type":"USSCargoBlackBox", "Stolen":false }
+{ "timestamp":"2017-01-08T01:31:17Z", "event":"FSDJump", "StarSystem":"HO Bootis", "StarPos":[-23.125,73.844,27.406], "SystemAllegiance":"Federation", "SystemEconomy":"$economy_Extraction;", "SystemEconomy_Localised":"Extraction", "SystemGovernment":"$government_Corporate;", "SystemGovernment_Localised":"Corporate", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":8.194, "FuelUsed":0.833219, "FuelLevel":4.462581, "SystemFaction":"HO Bootis Corporation" }
+{ "timestamp":"2017-01-08T01:32:39Z", "event":"FuelScoop", "Scooped":0.620618, "Total":5.083199 }
+{ "timestamp":"2017-01-08T01:34:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robert Haines;", "From_Localised":"Robert Haines", "Message":"$Pirate_StartInterdiction04;", "Message_Localised":"Prepare yourself!", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:34:59Z", "event":"Interdicted", "Submitted":false, "Interdictor":"Robert Haines", "IsPlayer":false, "Faction":"Marquis du G 167-35" }
+{ "timestamp":"2017-01-08T01:35:01Z", "event":"SupercruiseExit", "StarSystem":"HO Bootis", "Body":"HO Bootis", "BodyType":"Star" }
+{ "timestamp":"2017-01-08T01:35:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robert Haines;", "From_Localised":"Robert Haines", "Message":"$Pirate_OnDeclarePiracyThreaten05;", "Message_Localised":"Your cargo. Give it to me.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:35:21Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Robert Haines;", "From_Localised":"Robert Haines", "Message":"$Pirate_OnDeclarePiracyAttack05;", "Message_Localised":"You have no chance now.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:37:34Z", "event":"ShieldState", "ShieldsUp":false }
+{ "timestamp":"2017-01-08T01:38:23Z", "event":"ReceiveText", "From":"$ShipName_Police_Federation;", "From_Localised":"Federal Security Service", "Message":"$Police_ArriveInvestigate02;", "Message_Localised":"Incident response units on station.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:38:37Z", "event":"SupercruiseEntry", "StarSystem":"HO Bootis" }
+{ "timestamp":"2017-01-08T01:40:29Z", "event":"SupercruiseExit", "StarSystem":"HO Bootis", "Body":"Altshuller Port", "BodyType":"Station" }
+{ "timestamp":"2017-01-08T01:40:40Z", "event":"DockingRequested", "StationName":"Altshuller Port" }
+{ "timestamp":"2017-01-08T01:40:40Z", "event":"ReceiveText", "From":"Altshuller Port", "Message":"$DockingChatter_Cordial;", "Message_Localised":"Welcome back, Commander.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:40:41Z", "event":"ReceiveText", "From":"Altshuller Port", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:40:41Z", "event":"DockingGranted", "LandingPad":1, "StationName":"Altshuller Port" }
+{ "timestamp":"2017-01-08T01:40:55Z", "event":"ReceiveText", "From":"Altshuller Port", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:41:55Z", "event":"Docked", "StationName":"Altshuller Port", "StationType":"Outpost", "StarSystem":"HO Bootis", "StationFaction":"HO Bootis Corporation", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationAllegiance":"Federation", "StationEconomy":"$economy_Extraction;", "StationEconomy_Localised":"Extraction" }
+{ "timestamp":"2017-01-08T01:42:13Z", "event":"RefuelAll", "Cost":171, "Amount":3.407550 }
+{ "timestamp":"2017-01-08T01:42:23Z", "event":"RepairAll", "Cost":3552 }
+{ "timestamp":"2017-01-08T01:42:25Z", "event":"BuyAmmo", "Cost":200 }
+{ "timestamp":"2017-01-08T01:42:45Z", "event":"MissionCompleted", "Faction":"Marquis du G 167-35", "Name":"MISSION_Salvage_Refinery_name", "MissionID":67432086, "Commodity":"$USSCargoBlackBox_Name;", "Commodity_Localised":"Black Box", "Count":1, "DestinationSystem":"Berkanan", "DestinationStation":"Cremona Prospect", "Reward":39710 }
+{ "timestamp":"2017-01-08T01:43:06Z", "event":"MissionAccepted", "Faction":"Marquis du G 167-35", "Name":"Mission_AltruismCredits", "Expiry":"2017-01-08T04:45:45Z", "MissionID":67514411 }
+{ "timestamp":"2017-01-08T01:43:09Z", "event":"MissionCompleted", "Faction":"Marquis du G 167-35", "Name":"Mission_AltruismCredits_name", "MissionID":67514411, "Donation":450000 }
+{ "timestamp":"2017-01-08T01:44:02Z", "event":"RedeemVoucher", "Type":"bounty", "Amount":93075 }
+{ "timestamp":"2017-01-08T01:45:35Z", "event":"MissionAccepted", "Faction":"HO Bootis Corporation", "Name":"Mission_Delivery", "Commodity":"$Lepidolite_Name;", "Commodity_Localised":"Lepidolite", "Count":4, "DestinationSystem":"BD+22 2742", "DestinationStation":"Hope Terminal", "Expiry":"2017-01-09T01:42:27Z", "MissionID":67515123 }
+{ "timestamp":"2017-01-08T01:46:04Z", "event":"Undocked", "StationName":"Altshuller Port", "StationType":"Outpost" }
+{ "timestamp":"2017-01-08T01:46:24Z", "event":"ReceiveText", "From":"Altshuller Port", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:48:27Z", "event":"FSDJump", "StarSystem":"BD+22 2742", "StarPos":[-17.875,75.656,33.406], "SystemAllegiance":"Federation", "SystemEconomy":"$economy_Agri;", "SystemEconomy_Localised":"Agriculture", "SystemGovernment":"$government_Democracy;", "SystemGovernment_Localised":"Democracy", "SystemSecurity":"$SYSTEM_SECURITY_high;", "SystemSecurity_Localised":"High Security", "JumpDist":8.176, "FuelUsed":0.856106, "FuelLevel":7.143894, "SystemFaction":"Progressive Party of BD+22 2742" }
+{ "timestamp":"2017-01-08T01:48:53Z", "event":"FuelScoop", "Scooped":0.194818, "Total":7.338712 }
+{ "timestamp":"2017-01-08T01:55:07Z", "event":"SupercruiseExit", "StarSystem":"BD+22 2742", "Body":"Hope Terminal", "BodyType":"Station" }
+{ "timestamp":"2017-01-08T01:55:17Z", "event":"DockingRequested", "StationName":"Hope Terminal" }
+{ "timestamp":"2017-01-08T01:55:17Z", "event":"ReceiveText", "From":"Hope Terminal", "Message":"$DockingChatter_Neutral;", "Message_Localised":"Ensure to observe starport protocol during your visit, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:55:18Z", "event":"ReceiveText", "From":"Hope Terminal", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:55:18Z", "event":"DockingGranted", "LandingPad":1, "StationName":"Hope Terminal" }
+{ "timestamp":"2017-01-08T01:55:26Z", "event":"ReceiveText", "From":"Hope Terminal", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-01-08T01:56:12Z", "event":"Docked", "StationName":"Hope Terminal", "StationType":"Outpost", "StarSystem":"BD+22 2742", "StationFaction":"BD+22 2742 Party", "StationGovernment":"$government_Dictatorship;", "StationGovernment_Localised":"Dictatorship", "StationEconomy":"$economy_Refinery;", "StationEconomy_Localised":"Refinery" }
+{ "timestamp":"2017-01-08T01:56:48Z", "event":"MissionCompleted", "Faction":"BD+22 2742 Party", "Name":"Mission_Delivery_name", "MissionID":67515123, "Commodity":"$Lepidolite_Name;", "Commodity_Localised":"Lepidolite", "Count":4, "DestinationSystem":"BD+22 2742", "DestinationStation":"Hope Terminal", "Reward":26835 }
+{ "timestamp":"2017-01-08T01:58:07Z", "event":"RefuelAll", "Cost":48, "Amount":0.928993 }

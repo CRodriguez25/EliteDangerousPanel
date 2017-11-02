@@ -1,0 +1,110 @@
+{ "timestamp":"2017-01-14T03:45:34Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-14T03:46:29Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Group", "Group":"Kith000", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T03:46:29Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T03:46:29Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":21, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T03:47:01Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T03:47:01Z", "event":"Touchdown", "Latitude":-31.799969, "Longitude":-128.926910 }
+{ "timestamp":"2017-01-14T03:47:26Z", "event":"Liftoff", "Latitude":-31.799969, "Longitude":-128.926910 }
+{ "timestamp":"2017-01-14T03:47:58Z", "event":"Touchdown", "Latitude":-31.806538, "Longitude":-128.945663 }
+{ "timestamp":"2017-01-14T03:48:14Z", "event":"Liftoff", "Latitude":-31.806538, "Longitude":-128.945663 }
+{ "timestamp":"2017-01-14T03:51:47Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T03:52:37Z", "event":"ShieldState", "ShieldsUp":false }
+{ "timestamp":"2017-01-14T03:52:38Z", "event":"DockFighter" }
+{ "timestamp":"2017-01-14T03:54:14Z", "event":"LaunchFighter", "Loadout":"four", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T03:54:54Z", "event":"VehicleSwitch", "To":"Mothership" }
+{ "timestamp":"2017-01-14T04:01:41Z", "event":"VehicleSwitch", "To":"Fighter" }
+{ "timestamp":"2017-01-14T04:04:16Z", "event":"DockFighter" }
+{ "timestamp":"2017-01-14T04:11:20Z", "event":"Touchdown", "Latitude":-32.388012, "Longitude":-130.068573 }
+{ "timestamp":"2017-01-14T04:11:29Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T04:14:13Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-14T04:14:25Z", "event":"Liftoff", "Latitude":-32.388004, "Longitude":-130.068573 }
+{ "timestamp":"2017-01-14T04:14:33Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-01-14T04:14:33Z", "event":"WingAdd", "Name":"Ackron" }
+{ "timestamp":"2017-01-14T04:16:02Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe XR-H d11-102" }
+{ "timestamp":"2017-01-14T04:20:00Z", "event":"FSDJump", "StarSystem":"Synuefe PJ-D b46-6", "StarPos":[358.781,-49.594,-75.594], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":1.685, "FuelUsed":0.010961, "FuelLevel":13.649036 }
+{ "timestamp":"2017-01-14T04:20:51Z", "event":"FuelScoop", "Scooped":1.845396, "Total":15.494432 }
+{ "timestamp":"2017-01-14T04:24:23Z", "event":"USSDrop", "USSType":"$USS_Type_Salvage;", "USSType_Localised":"Degraded emissions detected", "USSThreat":0 }
+{ "timestamp":"2017-01-14T04:24:25Z", "event":"SupercruiseExit", "StarSystem":"Synuefe PJ-D b46-6", "Body":"Synuefe PJ-D b46-6 B", "BodyType":"Star" }
+{ "timestamp":"2017-01-14T04:25:02Z", "event":"CollectCargo", "Type":"SmallExplorationDataCash", "Stolen":true }
+{ "timestamp":"2017-01-14T04:26:04Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe PJ-D b46-6" }
+{ "timestamp":"2017-01-14T04:26:20Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dexter;", "From_Localised":"Dexter", "Message":"$Pirate_HunterHostileSC_Relevant04;", "Message_Localised":"Big haul like that, surprised you made it this far.", "Channel":"npc" }
+{ "timestamp":"2017-01-14T04:26:31Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Dexter;", "From_Localised":"Dexter", "Message":"$Pirate_StartInterdiction05;", "Message_Localised":"You have something that I want.", "Channel":"npc" }
+{ "timestamp":"2017-01-14T04:26:57Z", "event":"EscapeInterdiction", "Interdictor":"Dexter", "IsPlayer":false }
+{ "timestamp":"2017-01-14T04:31:11Z", "event":"SupercruiseExit", "StarSystem":"Synuefe PJ-D b46-6", "Body":"Synuefe PJ-D b46-6 A 1", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T04:32:45Z", "event":"Touchdown", "Latitude":-36.994106, "Longitude":12.974231 }
+{ "timestamp":"2017-01-14T04:32:51Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T04:35:35Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"iron", "DiscoveryNumber":1 }
+{ "timestamp":"2017-01-14T04:35:35Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T04:35:44Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"sulphur", "DiscoveryNumber":2 }
+{ "timestamp":"2017-01-14T04:35:44Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T04:35:50Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"phosphorus", "DiscoveryNumber":3 }
+{ "timestamp":"2017-01-14T04:35:50Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T04:36:03Z", "event":"Synthesis", "Name":"Fuel Basic", "Materials":{ "sulphur":1, "phosphorus":1 } }
+{ "timestamp":"2017-01-14T04:36:21Z", "event":"MaterialDiscarded", "Category":"Manufactured", "Name":"refinedfocuscrystals", "Count":1 }
+{ "timestamp":"2017-01-14T04:41:48Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"manganese", "DiscoveryNumber":4 }
+{ "timestamp":"2017-01-14T04:41:48Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-01-14T04:41:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T04:42:07Z", "event":"MaterialCollected", "Category":"Raw", "Name":"manganese", "Count":3 }
+{ "timestamp":"2017-01-14T04:42:13Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"nickel", "DiscoveryNumber":5 }
+{ "timestamp":"2017-01-14T04:42:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T04:45:20Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"carbon", "DiscoveryNumber":6 }
+{ "timestamp":"2017-01-14T04:45:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-14T04:45:25Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T04:45:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-14T04:45:52Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T04:45:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T04:47:52Z", "event":"DockSRV" }
+{ "timestamp":"2017-01-14T04:48:00Z", "event":"Liftoff", "Latitude":-37.124641, "Longitude":13.023345 }
+{ "timestamp":"2017-01-14T04:48:29Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe PJ-D b46-6" }
+{ "timestamp":"2017-01-14T04:49:46Z", "event":"FSDJump", "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":1.685, "FuelUsed":0.011168, "FuelLevel":15.093265 }
+{ "timestamp":"2017-01-14T04:50:39Z", "event":"FuelScoop", "Scooped":0.906735, "Total":16.000000 }
+{ "timestamp":"2017-01-14T04:56:10Z", "event":"USSDrop", "USSType":"$USS_Type_Salvage;", "USSType_Localised":"Degraded emissions detected", "USSThreat":0 }
+{ "timestamp":"2017-01-14T04:56:12Z", "event":"SupercruiseExit", "StarSystem":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T04:56:41Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe XR-H d11-102" }
+{ "timestamp":"2017-01-14T04:59:21Z", "event":"SupercruiseExit", "StarSystem":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T04:59:50Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe XR-H d11-102" }
+{ "timestamp":"2017-01-14T05:00:00Z", "event":"SupercruiseExit", "StarSystem":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T05:00:25Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe XR-H d11-102" }
+{ "timestamp":"2017-01-14T05:00:38Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Michael Watts;", "From_Localised":"Michael Watts", "Message":"$Pirate_HunterHostileSC_Relevant01;", "Message_Localised":"That's the ship I'm looking for, the one with the big haul...", "Channel":"npc" }
+{ "timestamp":"2017-01-14T05:02:55Z", "event":"SupercruiseExit", "StarSystem":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T05:09:59Z", "event":"Touchdown", "Latitude":-31.772783, "Longitude":-128.943588 }
+{ "timestamp":"2017-01-14T05:10:07Z", "event":"WingLeave" }
+{ "timestamp":"2017-01-14T05:10:21Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Group", "Group":"Kith000", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T05:10:21Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T05:10:21Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":45, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T05:10:40Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T05:10:40Z", "event":"Touchdown", "Latitude":-31.772783, "Longitude":-128.943588 }
+{ "timestamp":"2017-01-14T05:10:59Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-01-14T05:10:59Z", "event":"WingAdd", "Name":"Ackron" }
+{ "timestamp":"2017-01-14T05:11:05Z", "event":"Liftoff", "Latitude":-31.772783, "Longitude":-128.943588 }
+{ "timestamp":"2017-01-14T05:12:00Z", "event":"Touchdown", "Latitude":-31.776917, "Longitude":-128.957001 }
+{ "timestamp":"2017-01-14T05:12:09Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-14T05:15:21Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T05:15:29Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }
+{ "timestamp":"2017-01-14T05:15:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T05:15:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-14T05:15:46Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-14T05:16:01Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-14T05:17:45Z", "event":"HullDamage", "Health":0.776667, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T05:22:21Z", "event":"HullDamage", "Health":0.599138, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T05:29:42Z", "event":"HullDamage", "Health":0.390900, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T05:33:23Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-14T05:36:18Z", "event":"WingLeave" }
+{ "timestamp":"2017-01-14T05:36:35Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Solo", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T05:36:35Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T05:36:35Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":45, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T05:37:01Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T05:40:04Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-14T05:42:02Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"Kith000", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T05:42:02Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T05:42:02Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":45, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T05:42:49Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-14T05:43:15Z", "event":"EjectCargo", "Type":"ancientrelic", "Count":1, "Abandoned":true }
+{ "timestamp":"2017-01-14T05:43:50Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-01-14T05:43:50Z", "event":"WingAdd", "Name":"Ackron" }
+{ "timestamp":"2017-01-14T05:45:06Z", "event":"HullDamage", "Health":0.739767, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T05:46:43Z", "event":"CollectCargo", "Type":"ancientorb", "Stolen":false }
+{ "timestamp":"2017-01-14T05:48:38Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-14T05:50:39Z", "event":"WingLeave" }
+{ "timestamp":"2017-01-14T05:50:40Z", "event":"HullDamage", "Health":0.587432, "PlayerPilot":true }
+{ "timestamp":"2017-01-14T05:57:41Z", "event":"HullDamage", "Health":0.385576, "PlayerPilot":true }

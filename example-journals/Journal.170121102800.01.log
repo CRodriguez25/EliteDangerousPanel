@@ -1,0 +1,18 @@
+{ "timestamp":"2017-01-21T18:28:00Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-21T18:28:42Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Solo", "Credits":36155873, "Loan":0 }
+{ "timestamp":"2017-01-21T18:28:42Z", "event":"Rank", "Combat":5, "Trade":4, "Explore":2, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-21T18:28:42Z", "event":"Progress", "Combat":11, "Trade":34, "Explore":16, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-21T18:29:17Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-21T18:29:17Z", "event":"Touchdown", "Latitude":-31.765524, "Longitude":-128.915833 }
+{ "timestamp":"2017-01-21T18:31:19Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":36155873, "Loan":0 }
+{ "timestamp":"2017-01-21T18:31:19Z", "event":"Rank", "Combat":5, "Trade":4, "Explore":2, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-21T18:31:19Z", "event":"Progress", "Combat":11, "Trade":34, "Explore":16, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-21T18:31:41Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-21T18:31:41Z", "event":"Touchdown", "Latitude":-31.765524, "Longitude":-128.915833 }
+{ "timestamp":"2017-01-21T18:33:20Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=CloudCloudsen;", "From_Localised":"CMDR CloudCloudsen", "Message":"wow new record 5 min to load in :D", "Channel":"local" }
+{ "timestamp":"2017-01-21T18:41:55Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Xris;", "From_Localised":"CMDR Xris", "Message":"anyone wanna trade a casket for a tablet?", "Channel":"local" }
+{ "timestamp":"2017-01-21T22:45:03Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "StartLanded":true, "GameMode":"Solo", "Credits":36155873, "Loan":0 }
+{ "timestamp":"2017-01-21T22:45:03Z", "event":"Rank", "Combat":5, "Trade":4, "Explore":2, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-21T22:45:03Z", "event":"Progress", "Combat":11, "Trade":34, "Explore":16, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-21T22:45:27Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-21T22:45:27Z", "event":"Touchdown", "Latitude":-31.765524, "Longitude":-128.915833 }

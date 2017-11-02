@@ -1,0 +1,5 @@
+{ "timestamp":"2017-01-14T18:52:39Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-14T20:04:06Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Solo", "Credits":26574464, "Loan":0 }
+{ "timestamp":"2017-01-14T20:04:06Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-14T20:04:06Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":45, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-14T20:04:40Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }

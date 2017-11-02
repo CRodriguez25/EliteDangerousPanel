@@ -1,0 +1,141 @@
+{ "timestamp":"2017-01-18T02:53:46Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-18T02:55:03Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"Independant_Trader", "ShipID":5, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-18T02:55:03Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-18T02:55:03Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-18T02:56:38Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-18T03:03:15Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe XR-H d11-102" }
+{ "timestamp":"2017-01-18T03:03:58Z", "event":"SupercruiseExit", "StarSystem":"Synuefe XR-H d11-102", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-18T03:05:00Z", "event":"FSDJump", "StarSystem":"Synuefe DJ-F a93-1", "StarPos":[350.500,-44.563,-70.188], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":9.514, "FuelUsed":0.592558, "FuelLevel":12.303702 }
+{ "timestamp":"2017-01-18T03:05:14Z", "event":"SupercruiseExit", "StarSystem":"Synuefe DJ-F a93-1", "Body":"Synuefe DJ-F a93-1", "BodyType":"Star" }
+{ "timestamp":"2017-01-18T03:06:23Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe DJ-F a93-1" }
+{ "timestamp":"2017-01-18T03:07:27Z", "event":"FSDJump", "StarSystem":"Synuefe HP-D a94-0", "StarPos":[346.938,-44.219,-64.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":6.510, "FuelUsed":0.246449, "FuelLevel":12.057254 }
+{ "timestamp":"2017-01-18T03:08:18Z", "event":"FSDJump", "StarSystem":"Synuefe SP-B b47-3", "StarPos":[340.438,-48.500,-59.625], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":9.319, "FuelUsed":0.561401, "FuelLevel":11.495852 }
+{ "timestamp":"2017-01-18T03:09:39Z", "event":"FuelScoop", "Scooped":4.504148, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:10:03Z", "event":"FSDJump", "StarSystem":"Synuefe SP-B b47-5", "StarPos":[335.969,-52.188,-62.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":6.583, "FuelUsed":0.260045, "FuelLevel":15.739955 }
+{ "timestamp":"2017-01-18T03:10:27Z", "event":"FuelScoop", "Scooped":0.145762, "Total":15.885717 }
+{ "timestamp":"2017-01-18T03:11:00Z", "event":"FSDJump", "StarSystem":"HR 3057", "StarPos":[336.969,-55.500,-65.438], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":4.381, "FuelUsed":0.101662, "FuelLevel":15.784056 }
+{ "timestamp":"2017-01-18T03:11:45Z", "event":"FSDJump", "StarSystem":"Synuefe RP-B b47-6", "StarPos":[332.500,-61.656,-64.250], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":7.699, "FuelUsed":0.372893, "FuelLevel":15.627107 }
+{ "timestamp":"2017-01-18T03:12:01Z", "event":"SupercruiseExit", "StarSystem":"Synuefe RP-B b47-6", "Body":"Synuefe RP-B b47-6 A", "BodyType":"Star" }
+{ "timestamp":"2017-01-18T03:13:07Z", "event":"HeatWarning" }
+{ "timestamp":"2017-01-18T03:13:33Z", "event":"FSDJump", "StarSystem":"Synuefe VU-N c23-7", "StarPos":[327.313,-62.375,-62.531], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.512, "FuelUsed":0.172397, "FuelLevel":15.454710 }
+{ "timestamp":"2017-01-18T03:13:33Z", "event":"HeatWarning" }
+{ "timestamp":"2017-01-18T03:13:55Z", "event":"FuelScoop", "Scooped":0.043556, "Total":15.498266 }
+{ "timestamp":"2017-01-18T03:14:42Z", "event":"FSDJump", "StarSystem":"Synuefe XP-N c23-20", "StarPos":[321.625,-65.438,-56.406], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":8.902, "FuelUsed":0.518688, "FuelLevel":14.979579 }
+{ "timestamp":"2017-01-18T03:15:04Z", "event":"FuelScoop", "Scooped":0.254330, "Total":15.233909 }
+{ "timestamp":"2017-01-18T03:15:29Z", "event":"FSDJump", "StarSystem":"Synuefe TK-B b47-3", "StarPos":[324.406,-67.313,-53.063], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":4.736, "FuelUsed":0.121259, "FuelLevel":15.112649 }
+{ "timestamp":"2017-01-18T03:16:39Z", "event":"FSDJump", "StarSystem":"Synuefe XP-N c23-19", "StarPos":[325.406,-67.719,-52.063], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":1.471, "FuelUsed":0.008234, "FuelLevel":15.104415 }
+{ "timestamp":"2017-01-18T03:17:05Z", "event":"FuelScoop", "Scooped":0.660304, "Total":15.764719 }
+{ "timestamp":"2017-01-18T03:17:41Z", "event":"FSDJump", "StarSystem":"Synuefe XP-N c23-22", "StarPos":[325.813,-70.219,-47.156], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.521, "FuelUsed":0.173175, "FuelLevel":15.591544 }
+{ "timestamp":"2017-01-18T03:18:07Z", "event":"FuelScoop", "Scooped":0.408456, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:18:32Z", "event":"FSDJump", "StarSystem":"Synuefe XP-N c23-23", "StarPos":[324.719,-72.719,-44.719], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":3.659, "FuelUsed":0.067362, "FuelLevel":15.932638 }
+{ "timestamp":"2017-01-18T03:18:51Z", "event":"FuelScoop", "Scooped":0.048622, "Total":15.981260 }
+{ "timestamp":"2017-01-18T03:19:39Z", "event":"FSDJump", "StarSystem":"Synuefe TK-B b47-9", "StarPos":[319.625,-75.438,-46.531], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":6.052, "FuelUsed":0.214287, "FuelLevel":15.766973 }
+{ "timestamp":"2017-01-18T03:20:08Z", "event":"FuelScoop", "Scooped":0.233027, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:20:44Z", "event":"FSDJump", "StarSystem":"Synuefe XP-N c23-15", "StarPos":[320.719,-81.875,-46.688], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":6.532, "FuelUsed":0.255446, "FuelLevel":15.744554 }
+{ "timestamp":"2017-01-18T03:21:43Z", "event":"FSDJump", "StarSystem":"Synuefe VF-B b47-7", "StarPos":[321.063,-87.063,-45.781], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.277, "FuelUsed":0.156424, "FuelLevel":15.843575 }
+{ "timestamp":"2017-01-18T03:22:19Z", "event":"FuelScoop", "Scooped":0.156425, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:22:51Z", "event":"FSDJump", "StarSystem":"Synuefe ZL-Z b47-7", "StarPos":[318.438,-89.375,-41.938], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.197, "FuelUsed":0.151020, "FuelLevel":15.848981 }
+{ "timestamp":"2017-01-18T03:23:15Z", "event":"FuelScoop", "Scooped":0.151019, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:23:45Z", "event":"FSDJump", "StarSystem":"Synuefe YL-Z b47-5", "StarPos":[314.250,-95.656,-41.969], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":7.549, "FuelUsed":0.356387, "FuelLevel":15.643613 }
+{ "timestamp":"2017-01-18T03:24:12Z", "event":"FuelScoop", "Scooped":0.356387, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:25:21Z", "event":"FSDJump", "StarSystem":"Synuefe YL-Z b47-6", "StarPos":[309.094,-97.000,-41.781], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.332, "FuelUsed":0.160143, "FuelLevel":15.839857 }
+{ "timestamp":"2017-01-18T03:25:46Z", "event":"FuelScoop", "Scooped":0.160143, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:26:25Z", "event":"FSDJump", "StarSystem":"Synuefe YL-Z b47-7", "StarPos":[306.531,-101.156,-42.156], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":4.897, "FuelUsed":0.131696, "FuelLevel":15.868303 }
+{ "timestamp":"2017-01-18T03:26:51Z", "event":"FuelScoop", "Scooped":0.131697, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:27:21Z", "event":"FSDJump", "StarSystem":"Synuefe AH-Z b47-6", "StarPos":[304.688,-110.156,-38.875], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":9.755, "FuelUsed":0.642697, "FuelLevel":15.357304 }
+{ "timestamp":"2017-01-18T03:27:47Z", "event":"FuelScoop", "Scooped":0.642696, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:28:11Z", "event":"FSDJump", "StarSystem":"Synuefe AH-Z b47-5", "StarPos":[303.188,-114.281,-38.844], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":4.389, "FuelUsed":0.102383, "FuelLevel":15.897617 }
+{ "timestamp":"2017-01-18T03:29:09Z", "event":"FSDJump", "StarSystem":"Synuefe AH-Z b47-3", "StarPos":[301.000,-118.719,-41.219], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":5.488, "FuelUsed":0.171028, "FuelLevel":15.726589 }
+{ "timestamp":"2017-01-18T03:29:35Z", "event":"FuelScoop", "Scooped":0.273411, "Total":16.000000 }
+{ "timestamp":"2017-01-18T03:29:56Z", "event":"FSDJump", "StarSystem":"Synuefe YM-H d11-83", "StarPos":[294.219,-126.563,-38.531], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":10.711, "FuelUsed":0.796903, "FuelLevel":15.203096 }
+{ "timestamp":"2017-01-18T03:30:23Z", "event":"FuelScoop", "Scooped":-0.062186, "Total":15.140910 }
+{ "timestamp":"2017-01-18T03:30:51Z", "event":"FSDJump", "StarSystem":"Exphiay", "StarPos":[283.844,-128.250,-38.938], "SystemAllegiance":"Independent", "SystemEconomy":"$economy_Colony;", "SystemEconomy_Localised":"Colony", "SystemGovernment":"$government_Corporate;", "SystemGovernment_Localised":"Corporate", "SystemSecurity":"$SYSTEM_SECURITY_medium;", "SystemSecurity_Localised":"Medium Security", "JumpDist":10.519, "FuelUsed":0.761983, "FuelLevel":15.140910, "SystemFaction":"The Bliss Consortium", "FactionState":"Boom" }
+{ "timestamp":"2017-01-18T03:33:33Z", "event":"SupercruiseExit", "StarSystem":"Exphiay", "Body":"James K Winston", "BodyType":"Station" }
+{ "timestamp":"2017-01-18T03:33:34Z", "event":"ReceiveText", "From":"James K Winston", "Message":"$STATION_NoFireZone_entered;", "Message_Localised":"No fire zone entered.", "Channel":"npc" }
+{ "timestamp":"2017-01-18T03:33:42Z", "event":"EjectCargo", "Type":"ancienttotem", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-18T03:33:44Z", "event":"CommitCrime", "CrimeType":"dumpingNearStation", "Faction":"Gallant Investment Brokers", "Fine":335 }
+{ "timestamp":"2017-01-18T03:33:58Z", "event":"DockingRequested", "StationName":"James K Winston" }
+{ "timestamp":"2017-01-18T03:33:58Z", "event":"ReceiveText", "From":"James K Winston", "Message":"$DockingChatter_Neutral;", "Message_Localised":"Ensure to observe starport protocol during your visit, pilot.", "Channel":"npc" }
+{ "timestamp":"2017-01-18T03:33:59Z", "event":"ReceiveText", "From":"James K Winston", "Message":"$STATION_docking_granted;", "Message_Localised":"Docking request granted.", "Channel":"npc" }
+{ "timestamp":"2017-01-18T03:33:59Z", "event":"DockingGranted", "LandingPad":22, "StationName":"James K Winston" }
+{ "timestamp":"2017-01-18T03:35:17Z", "event":"Docked", "StationName":"James K Winston", "StationType":"Orbis", "StarSystem":"Exphiay", "StationFaction":"Gallant Investment Brokers", "FactionState":"Famine", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationEconomy":"$economy_Refinery;", "StationEconomy_Localised":"Refinery" }
+{ "timestamp":"2017-01-18T03:35:45Z", "event":"RefuelAll", "Cost":64, "Amount":1.261522 }
+{ "timestamp":"2017-01-18T03:35:48Z", "event":"RepairAll", "Cost":1742 }
+{ "timestamp":"2017-01-18T03:35:50Z", "event":"BuyAmmo", "Cost":200 }
+{ "timestamp":"2017-01-18T03:35:50Z", "event":"RestockVehicle", "Type":"testbuggy", "Loadout":"starter", "Cost":1030, "Count":1 }
+{ "timestamp":"2017-01-18T03:36:25Z", "event":"PayFines", "Amount":335 }
+{ "timestamp":"2017-01-18T03:38:03Z", "event":"ReceiveText", "From":"$npc_name_decorate:#name=Vagn Luv;", "From_Localised":"Vagn Luv", "Message":"$Commuter_AuthorityScan04;", "Message_Localised":"Is this really necessary?", "Channel":"npc" }
+{ "timestamp":"2017-01-18T05:20:19Z", "event":"ShipyardTransfer", "ShipType":"Vulture", "ShipID":3, "System":"Mortel", "Distance":376.215576, "TransferPrice":478135 }
+{ "timestamp":"2017-01-18T16:10:53Z", "event":"ModuleStore", "Slot":"Slot02_Size5", "StoredItem":"$int_fighterbay_size5_class1_name;", "StoredItem_Localised":"Fighter Hangar", "Ship":"independant_trader", "ShipID":5 }
+{ "timestamp":"2017-01-18T16:11:25Z", "event":"ModuleStore", "Slot":"Slot05_Size2", "StoredItem":"$int_buggybay_size2_class2_name;", "StoredItem_Localised":"Planetary Vehicle Hangar", "Ship":"independant_trader", "ShipID":5 }
+{ "timestamp":"2017-01-18T16:11:50Z", "event":"ShipyardSwap", "ShipType":"vulture", "ShipID":3, "StoreOldShip":"Independant_Trader", "StoreShipID":5 }
+{ "timestamp":"2017-01-18T16:12:02Z", "event":"Docked", "StationName":"James K Winston", "StationType":"Orbis", "StarSystem":"Exphiay", "StationFaction":"Gallant Investment Brokers", "FactionState":"Famine", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationEconomy":"$economy_Refinery;", "StationEconomy_Localised":"Refinery" }
+{ "timestamp":"2017-01-18T16:12:35Z", "event":"RefuelAll", "Cost":41, "Amount":0.805349 }
+{ "timestamp":"2017-01-18T16:13:36Z", "event":"ShipyardSwap", "ShipType":"independant_trader", "ShipID":5, "StoreOldShip":"Vulture", "StoreShipID":3 }
+{ "timestamp":"2017-01-18T16:13:46Z", "event":"Docked", "StationName":"James K Winston", "StationType":"Orbis", "StarSystem":"Exphiay", "StationFaction":"Gallant Investment Brokers", "FactionState":"Famine", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationEconomy":"$economy_Refinery;", "StationEconomy_Localised":"Refinery" }
+{ "timestamp":"2017-01-18T16:14:20Z", "event":"ModuleStore", "Slot":"Slot03_Size3", "StoredItem":"$int_fuelscoop_size3_class5_name;", "StoredItem_Localised":"Fuel Scoop", "Ship":"independant_trader", "ShipID":5 }
+{ "timestamp":"2017-01-18T16:14:37Z", "event":"ShipyardSwap", "ShipType":"vulture", "ShipID":3, "StoreOldShip":"Independant_Trader", "StoreShipID":5 }
+{ "timestamp":"2017-01-18T16:14:48Z", "event":"Docked", "StationName":"James K Winston", "StationType":"Orbis", "StarSystem":"Exphiay", "StationFaction":"Gallant Investment Brokers", "FactionState":"Famine", "StationGovernment":"$government_Corporate;", "StationGovernment_Localised":"Corporate", "StationEconomy":"$economy_Refinery;", "StationEconomy_Localised":"Refinery" }
+{ "timestamp":"2017-01-18T16:16:44Z", "event":"ModuleBuy", "Slot":"Slot05_Size1", "SellItem":"$int_hullreinforcement_size1_class2_name;", "SellItem_Localised":"Hull Reinforcement", "SellPrice":15000, "BuyItem":"$int_cargorack_size1_class1_name;", "BuyItem_Localised":"Cargo Rack", "BuyPrice":1000, "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:17:21Z", "event":"ModuleBuy", "Slot":"Slot03_Size2", "SellItem":"$int_cargorack_size2_class1_name;", "SellItem_Localised":"Cargo Rack", "SellPrice":3250, "BuyItem":"$int_buggybay_size2_class1_name;", "BuyItem_Localised":"Planetary Vehicle Hangar", "BuyPrice":18000, "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:18:13Z", "event":"ModuleStore", "Slot":"Slot02_Size4", "StoredItem":"$int_hullreinforcement_size4_class2_name;", "StoredItem_Localised":"Hull Reinforcement", "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:18:37Z", "event":"ModuleStore", "Slot":"Slot06_Size1", "StoredItem":"$int_fuelscoop_size1_class4_name;", "StoredItem_Localised":"Fuel Scoop", "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:18:54Z", "event":"ModuleRetrieve", "Slot":"Slot02_Size4", "RetrievedItem":"$int_fuelscoop_size3_class5_name;", "RetrievedItem_Localised":"Fuel Scoop", "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:19:18Z", "event":"ModuleBuy", "Slot":"Slot06_Size1", "BuyItem":"$int_stellarbodydiscoveryscanner_standard_name;", "BuyItem_Localised":"D - Scanner", "BuyPrice":1000, "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:19:47Z", "event":"ModuleStore", "Slot":"Armour", "StoredItem":"$vulture_armour_grade3_name;", "StoredItem_Localised":"Military Grade Composite", "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-18T16:21:56Z", "event":"ModuleStore", "Slot":"TinyHardpoint1", "StoredItem":"$hpt_crimescanner_size0_class1_name;", "StoredItem_Localised":"K-Warrant Scanner", "Ship":"vulture", "ShipID":3 }
+{ "timestamp":"2017-01-19T01:30:53Z", "event":"Undocked", "StationName":"James K Winston", "StationType":"Orbis" }
+{ "timestamp":"2017-01-19T01:32:38Z", "event":"ReceiveText", "From":"James K Winston", "Message":"$STATION_NoFireZone_exited;", "Message_Localised":"No fire zone left.", "Channel":"npc" }
+{ "timestamp":"2017-01-19T01:34:51Z", "event":"FSDJump", "StarSystem":"Synuefe YM-H d11-83", "StarPos":[294.219,-126.563,-38.531], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":10.519, "FuelUsed":1.190249, "FuelLevel":6.809751 }
+{ "timestamp":"2017-01-19T01:35:17Z", "event":"HeatWarning" }
+{ "timestamp":"2017-01-19T01:35:29Z", "event":"FuelScoop", "Scooped":-0.050471, "Total":6.759280 }
+{ "timestamp":"2017-01-19T01:35:55Z", "event":"FSDJump", "StarSystem":"Synuefe AH-Z b47-3", "StarPos":[301.000,-118.719,-41.219], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":10.711, "FuelUsed":1.240720, "FuelLevel":6.759280 }
+{ "timestamp":"2017-01-19T01:36:25Z", "event":"FuelScoop", "Scooped":0.747632, "Total":7.506912 }
+{ "timestamp":"2017-01-19T01:36:52Z", "event":"FuelScoop", "Scooped":0.493088, "Total":8.000000 }
+{ "timestamp":"2017-01-19T02:01:49Z", "event":"FSDJump", "StarSystem":"Synuefe AH-Z b47-4", "StarPos":[303.063,-115.031,-42.375], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "JumpDist":4.380, "FuelUsed":0.158135, "FuelLevel":7.271865 }
+{ "timestamp":"2017-01-19T02:02:25Z", "event":"FuelScoop", "Scooped":0.728135, "Total":8.000000 }
+{ "timestamp":"2017-01-19T02:07:07Z", "event":"SupercruiseExit", "StarSystem":"Synuefe AH-Z b47-4", "Body":"Synuefe AH-Z b47-4 B 5 a", "BodyType":"Planet" }
+{ "timestamp":"2017-01-19T02:08:41Z", "event":"SupercruiseEntry", "StarSystem":"Synuefe AH-Z b47-4" }
+{ "timestamp":"2017-01-19T02:10:37Z", "event":"SupercruiseExit", "StarSystem":"Synuefe AH-Z b47-4", "Body":"Synuefe AH-Z b47-4 B 5 a", "BodyType":"Planet" }
+{ "timestamp":"2017-01-19T02:15:33Z", "event":"Touchdown", "Latitude":82.331566, "Longitude":-69.015633 }
+{ "timestamp":"2017-01-19T02:15:39Z", "event":"LaunchSRV", "Loadout":"starter", "PlayerControlled":true }
+{ "timestamp":"2017-01-19T02:21:00Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"zinc", "DiscoveryNumber":11 }
+{ "timestamp":"2017-01-19T02:21:00Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-01-19T02:21:05Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"selenium", "DiscoveryNumber":12 }
+{ "timestamp":"2017-01-19T02:21:05Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2017-01-19T02:21:09Z", "event":"EngineerProgress", "Engineer":"Felicity Farseer", "Progress":"Invited" }
+{ "timestamp":"2017-01-19T02:21:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"cadmium", "Count":3 }
+{ "timestamp":"2017-01-19T02:21:42Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:22:20Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:22:27Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2017-01-19T02:22:32Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"vanadium", "DiscoveryNumber":13 }
+{ "timestamp":"2017-01-19T02:22:32Z", "event":"MaterialCollected", "Category":"Raw", "Name":"vanadium", "Count":3 }
+{ "timestamp":"2017-01-19T02:23:07Z", "event":"HullDamage", "Health":0.746664, "PlayerPilot":true }
+{ "timestamp":"2017-01-19T02:24:19Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:24:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:24:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-19T02:24:39Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-19T02:25:33Z", "event":"Promotion", "Combat":5 }
+{ "timestamp":"2017-01-19T02:25:33Z", "event":"Promotion", "Explore":2 }
+{ "timestamp":"2017-01-19T02:26:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"zinc", "Count":3 }
+{ "timestamp":"2017-01-19T02:26:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:26:45Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:26:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-19T02:26:58Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:27:11Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:12Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"selenium", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:31Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:34Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:29:41Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:31:03Z", "event":"MaterialCollected", "Category":"Raw", "Name":"iron", "Count":3 }
+{ "timestamp":"2017-01-19T02:31:13Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:31:14Z", "event":"MaterialDiscovered", "Category":"Raw", "Name":"antimony", "DiscoveryNumber":14 }
+{ "timestamp":"2017-01-19T02:31:14Z", "event":"MaterialCollected", "Category":"Raw", "Name":"antimony", "Count":3 }
+{ "timestamp":"2017-01-19T02:31:22Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:33:24Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:33:33Z", "event":"MaterialCollected", "Category":"Raw", "Name":"carbon", "Count":3 }
+{ "timestamp":"2017-01-19T02:33:40Z", "event":"MaterialCollected", "Category":"Raw", "Name":"sulphur", "Count":3 }
+{ "timestamp":"2017-01-19T02:33:43Z", "event":"MaterialCollected", "Category":"Raw", "Name":"phosphorus", "Count":3 }
+{ "timestamp":"2017-01-19T02:33:53Z", "event":"MaterialCollected", "Category":"Raw", "Name":"nickel", "Count":3 }

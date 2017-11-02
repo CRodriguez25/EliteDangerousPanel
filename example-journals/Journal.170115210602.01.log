@@ -1,0 +1,49 @@
+{ "timestamp":"2017-01-16T05:06:02Z", "event":"Fileheader", "part":1, "language":"English\\UK", "gameversion":"2.2", "build":"r131487/r0 " }
+{ "timestamp":"2017-01-16T05:07:02Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T05:07:02Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T05:07:02Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
+{ "timestamp":"2017-01-16T05:07:48Z", "event":"Location", "Docked":false, "StarSystem":"Synuefe XR-H d11-102", "StarPos":[357.344,-49.344,-74.750], "SystemAllegiance":"", "SystemEconomy":"$economy_None;", "SystemEconomy_Localised":"None", "SystemGovernment":"$government_None;", "SystemGovernment_Localised":"None", "SystemSecurity":"$SYSTEM_SECURITY_low;", "SystemSecurity_Localised":"Low Security", "Body":"Synuefe XR-H d11-102 1 b", "BodyType":"Planet" }
+{ "timestamp":"2017-01-16T05:10:55Z", "event":"HullDamage", "Health":0.783701, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:11:25Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-16T05:11:37Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"i never got anything from the pillars where the relics are", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:11:54Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"you can scan them all you want and it never did anything", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:12:03Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"at least for me", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:12:05Z", "event":"HullDamage", "Health":0.549833, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:12:13Z", "event":"HullDamage", "Health":0.349103, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:12:30Z", "event":"ReceiveText", "From":"$RolePanel2_unmanned; $cmdr_decorate:#name=JuiceMane;", "From_Localised":"unmanned CMDR JuiceMane", "Message":"ahh ok, good to know, just found it kinda weird he would send the message for them. ", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:12:33Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-16T05:14:38Z", "event":"HullDamage", "Health":0.799641, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:15:14Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"i would get that wrong combo message when I wasn't doing anything. I'm thinking it's a bug", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:15:40Z", "event":"SendText", "To":"local", "Message":"Are you in a wing?" }
+{ "timestamp":"2017-01-16T05:16:04Z", "event":"HullDamage", "Health":0.598593, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:16:32Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"no. Think it probably was just bleeding from other players, because it was a delayed message by like 10 seconds", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:17:28Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"friend of mine was saying that he was getting the decoded messages when he was just sitting in his ship, and he got the reward for it too", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:18:12Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=JuiceMane;", "From_Localised":"CMDR JuiceMane", "Message":"ye I had got a couple of the cultural ones that I couldn't seem to get earlier right when I got into my ship.", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:18:34Z", "event":"SendText", "To":"local", "Message":"Yep, my friend and I were here yesterday, and we think it's a bug. If we're right, what's happening is that when one person (in our case in a wing) does a scan, the game acts as though both players scanned" }
+{ "timestamp":"2017-01-16T05:18:49Z", "event":"SendText", "To":"local", "Message":"The game looks at both player's inventories, and sees if there's a correct combination" }
+{ "timestamp":"2017-01-16T05:19:02Z", "event":"SendText", "To":"local", "Message":"One person can get it, and one person could fail that way." }
+{ "timestamp":"2017-01-16T05:19:10Z", "event":"ReceiveText", "From":"$cmdr_decorate:#name=Agro Dan;", "From_Localised":"CMDR Agro Dan", "Message":"lol neat", "Channel":"local" }
+{ "timestamp":"2017-01-16T05:19:20Z", "event":"SendText", "To":"local", "Message":"If you're in a ship with all the items, you'll always get it lol. We were testing it out yesterday and it seemed to work" }
+{ "timestamp":"2017-01-16T05:22:12Z", "event":"HullDamage", "Health":0.349718, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:23:13Z", "event":"Synthesis", "Name":"Repair Basic", "Materials":{ "iron":2, "nickel":1 } }
+{ "timestamp":"2017-01-16T05:23:24Z", "event":"WingJoin", "Others":[] }
+{ "timestamp":"2017-01-16T05:23:24Z", "event":"WingAdd", "Name":"Ackron" }
+{ "timestamp":"2017-01-16T05:29:02Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":true }
+{ "timestamp":"2017-01-16T05:29:04Z", "event":"CollectCargo", "Type":"ancienttotem", "Stolen":true }
+{ "timestamp":"2017-01-16T05:30:09Z", "event":"MaterialDiscarded", "Category":"Encoded", "Name":"shielddensityreports", "Count":50 }
+{ "timestamp":"2017-01-16T05:30:16Z", "event":"MaterialDiscarded", "Category":"Encoded", "Name":"emissiondata", "Count":15 }
+{ "timestamp":"2017-01-16T05:31:32Z", "event":"EjectCargo", "Type":"ancientcasket", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T05:31:34Z", "event":"EjectCargo", "Type":"ancienttotem", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T05:31:39Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":false }
+{ "timestamp":"2017-01-16T05:32:29Z", "event":"HullDamage", "Health":0.799413, "PlayerPilot":true }
+{ "timestamp":"2017-01-16T05:32:58Z", "event":"CollectCargo", "Type":"ancientcasket", "Stolen":true }
+{ "timestamp":"2017-01-16T05:33:15Z", "event":"CollectCargo", "Type":"ancienttotem", "Stolen":true }
+{ "timestamp":"2017-01-16T05:33:27Z", "event":"MaterialDiscovered", "Category":"Encoded", "Name":"ancienthistoricaldata", "DiscoveryNumber":19 }
+{ "timestamp":"2017-01-16T05:33:27Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienthistoricaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:33:28Z", "event":"MaterialDiscovered", "Category":"Encoded", "Name":"ancienttechnologicaldata", "DiscoveryNumber":20 }
+{ "timestamp":"2017-01-16T05:33:28Z", "event":"MaterialCollected", "Category":"Encoded", "Name":"ancienttechnologicaldata", "Count":3 }
+{ "timestamp":"2017-01-16T05:37:46Z", "event":"EjectCargo", "Type":"ancienttotem", "Count":1, "Abandoned":false }
+{ "timestamp":"2017-01-16T05:37:51Z", "event":"WingLeave" }
+{ "timestamp":"2017-01-16T05:38:12Z", "event":"LoadGame", "Commander":"Kith000", "Ship":"TestBuggy", "ShipID":7, "StartLanded":true, "GameMode":"Group", "Group":"MOBIUS PVE", "Credits":26562812, "Loan":0 }
+{ "timestamp":"2017-01-16T05:38:12Z", "event":"Rank", "Combat":5, "Trade":3, "Explore":1, "Empire":0, "Federation":2, "CQC":0 }
+{ "timestamp":"2017-01-16T05:38:12Z", "event":"Progress", "Combat":11, "Trade":42, "Explore":88, "Empire":100, "Federation":83, "CQC":40 }
