@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ScanningHandlerService } from './services/scanning-handler/scanning-handler.service';
 import { BountyHandlerService } from './services/bounty-handler/bounty-handler.service';
+import { SystemInfoService } from './services/system-info-handler/system-info.service';
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,14 @@ import { BountyHandlerService } from './services/bounty-handler/bounty-handler.s
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  {
-  title = 'Test 2';
 
   constructor(
       private scanningHandler: ScanningHandlerService,
-      private bountyHandler: BountyHandlerService
+      private bountyHandler: BountyHandlerService,
+      private systemInfoService: SystemInfoService
     ) {
       scanningHandler.start();
       bountyHandler.start();
+      systemInfoService.start();
   }
 }

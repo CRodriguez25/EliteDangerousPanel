@@ -14,6 +14,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 import { HttpClientModule } from '@angular/common/http';
 import { PanelActionService } from './services/panel-action/panel-action.service';
+import { SystemModalComponent } from './services/system-info-handler/system-info-modal/system-modal.component';
+import { SystemInfoService } from './services/system-info-handler/system-info.service';
+import { SystemRepoService } from './services/system-repository/system-repo.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,8 @@ import { PanelActionService } from './services/panel-action/panel-action.service
     PanelButtonComponent,
     ScanModalComponent,
     CapitalizePipe,
-    BountyModalComponent
+    BountyModalComponent,
+    SystemModalComponent
   ],
   imports: [
     BrowserModule,
@@ -30,8 +34,8 @@ import { PanelActionService } from './services/panel-action/panel-action.service
     HttpClientModule,
     MatTabsModule
   ],
-  providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService],
+  providers: [EventFeedService, ScanningHandlerService, PanelActionService, BountyHandlerService, SystemInfoService, SystemRepoService],
   bootstrap: [AppComponent],
-  entryComponents: [ScanModalComponent, BountyModalComponent]
+  entryComponents: [ScanModalComponent, BountyModalComponent, SystemModalComponent]
 })
 export class AppModule { }
