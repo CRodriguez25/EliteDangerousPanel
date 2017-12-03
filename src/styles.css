@@ -13,7 +13,6 @@ body {
 	overflow-y: hidden;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;	
-    padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
 }
 
 .glow {
@@ -105,5 +104,10 @@ hr {
 }
 
 .mat-tab-body {
-    padding-top: 5vh;
+    padding-top: 3vh;
+}
+
+.mat-tab-body-content {
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }

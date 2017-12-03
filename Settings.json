@@ -1,76 +1,143 @@
 {  
-   "KeyBindings":{  
-      "Button 1":{  
-         "Type":0,
-         "Value":"m"
-      },
-      "Button 2":{  
-         "Type":0,
-         "Value":"n"
-      },
-      "Button 3":{  
-         "Type":0,
-         "Value":"{CTRLDOWN}{ALTDOWN}{SPACE}{ALTUP}{CTRLUP}"
-      },
-      "Button 4":{  
-         "Type":0,
-         "Value":"p"
-      },
-      "Button 5":{  
-         "Type":0,
-         "Value":"{PGDN}"
-      },
-      "Button 6":{  
-         "Type":0,
-         "Value":"{INS}"
-      },
-      "Button 7":{  
-         "Type":0,
-         "Value":"{HOME}"
-      },
-      "Button 8":{  
-         "Type":0,
-         "Value":"{END}"
-      },
-      "Button 9":{  
-         "Type":0,
-         "Value":"l"
-      },
-      "Button 10":{  
-         "Type":0,
-         "Value":"u"
-      },
-      "Button 11":{  
-         "Type":0,
-         "Value":"v"
-      },
-      "Button 12":{  
-         "Type":0,
-         "Value":"{SHIFTDOWN}{DEL}{SHIFTUP}"
-      },
-      "Scan Button Action":{  
-         "Type":0,
-         "Value":"n"
-      }
+    "KeyBindings":{  
+        "Tab 1 Button 1":{  
+           "Type":0,
+           "Value":"{m down}{m up}"
+        },
+        "Tab 1 Button 2":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}{m down}{m up}{CTRLUP}"
+        },
+        "Tab 1 Button 3":{  
+           "Type":0,
+           "Value":"9"
+        },
+        "Tab 1 Button 4":{  
+           "Type":0,
+           "Value":"p"
+        },
+        "Tab 1 Button 5":{  
+           "Type":0,
+           "Value":"{PGDN}"
+        },
+        "Tab 1 Button 6":{  
+           "Type":0,
+           "Value":"{INS}"
+        },
+        "Tab 1 Button 7":{  
+           "Type":0,
+           "Value":"{HOME}"
+        },
+        "Tab 1 Button 8":{  
+           "Type":0,
+           "Value":"{END}"
+        },
+        "Tab 1 Button 9":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}a{CTRLUP}"
+        },
+        "Tab 1 Button 10":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}r{CTRLUP}"
+        },
+        "Tab 1 Button 11":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}o{CTRLUP}"
+        },
+        "Tab 1 Button 12":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}n{CTRLUP}"
+        },
+        "Tab 2 Button 1":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}{LEFT}{CTRLUP}"
+         },
+         "Tab 2 Button 2":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}{RIGHT}{CTRLUP}"
+         },
+         "Tab 2 Button 3":{  
+            "Type":0,
+            "Value":"{ALTDOWN}{LEFT}{ALTUP}"
+         },
+         "Tab 2 Button 4":{  
+            "Type":0,
+            "Value":"{ALTDOWN}{RIGHT}{ALTUP}"
+         },
+         "Tab 2 Button 5":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}{SHIFTDOWN}e{SHIFTUP}{CTRLUP}"
+         },
+         "Tab 2 Button 6":{  
+            "Type":0,
+            "Value":"v"
+         },
+         "Tab 2 Button 7":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}x{CTRLUP}"
+         },
+         "Tab 2 Button 8":{  
+            "Type":0,
+            "Value":"u"
+         },
+         "Tab 2 Button 9":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}b{CTRLUP}"
+         },
+         "Tab 2 Button 10":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}g{CTRLUP}"
+         },
+         "Tab 2 Button 11":{  
+            "Type":0,
+            "Value":"{CTRLDOWN}{DEL}{CTRLUP}"
+         },
+         "Tab 2 Button 12":{  
+            "Type":0,
+            "Value":"l"
+         },
+        "Scan Button Action":{  
+           "Type":0,
+           "Value":"{CTRLDOWN}{m down}{m up}{CTRLUP}"
+        }
    },
+
    "LabelBindings":{  
-      "Button 1":"Galaxy Map",
-      "Button 2":"System Map",
-      "Button 3":"Camera Suite",
-      "Button 4":"Jump",
-      "Button 5":"Landing Gear",
-      "Button 6":"Cargo Scoop",
-      "Button 7":"Ship Lights",
-      "Button 8":"Jettison Cargo",
-      "Button 9":"Hardpoints",
-      "Button 10":"Heat Sink",
-      "Button 11":"Shield Cell Bank",
+      "Tab 1 Button 1":"Galaxy Map",
+      "Tab 1 Button 2":"System Map",
+      "Tab 1 Button 3":"Camera Suite",
+      "Tab 1 Button 4":"Jump",
+      "Tab 1 Button 5":"Landing Gear",
+      "Tab 1 Button 6":"Cargo Scoop",
+      "Tab 1 Button 7":"Ship Lights",
+      "Tab 1 Button 8":"Jettison Cargo",
+      "Tab 1 Button 9":"Flight Assist",
+      "Tab 1 Button 10":"Rot. Correction",
+      "Tab 1 Button 11":"Orbital Lines",
+      "Tab 1 Button 12":"Next System",
+      "Tab 2 Button 1":"Prev Hostile",
+      "Tab 2 Button 2":"Next Hostile",
+      "Tab 2 Button 3":"Prev Subsystem",
+      "Tab 2 Button 4":"Next Subsystem",
+      "Tab 2 Button 5":"ECM",
+      "Tab 2 Button 6":"Shield Cell",
+      "Tab 2 Button 7":"Chaff",
+      "Tab 2 Button 8":"Heat Sink",
+      "Tab 2 Button 9":"Prev Fire Group",
+      "Tab 2 Button 10":"Next Fire Group",
+      "Tab 2 Button 11":"Silent Running",
+      "Tab 2 Button 12":"Hardpoints",
       "Scan Button Action":"Open System Map",
-      "Dismiss Scan Popup":"Dismiss",
-      "Button 12":"Silent Running",
-      "Header 1":"Navigation",
-      "Header 2":"Ship Functions",
-      "Header 3":"Combat"
+      "Dismiss Popup":"Dismiss",
+      "Tab 1 Header 1":"Navigation",
+      "Tab 1 Header 2":"Ship Functions",
+      "Tab 1 Header 3":"System",
+      "Tab 2 Header 1":"Targeting",
+      "Tab 2 Header 2":"Counter Measures",
+      "Tab 2 Header 3":"Combat Systems",
+      "Tab 1": "Navigation",
+      "Tab 2": "Combat"
    },
+
    "Program":"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Elite Dangerous\\Products\\elite-dangerous-64\\EliteDangerous64.exe"
 }
