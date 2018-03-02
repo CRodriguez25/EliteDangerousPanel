@@ -7,6 +7,7 @@ This is an Angular-4 web app built with the angular cli. It also uses an [Elite 
 In order to build and package the panel for import into the Panels App, run these two commands
 
 ng build
+
 gulp package
 
 ng build will compile the Typescript into the dist folder
