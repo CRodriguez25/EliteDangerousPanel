@@ -11,6 +11,7 @@ ng build
 gulp package
 
 ng build will compile the Typescript into the dist folder
+
 gulp package will take the dist folder, Settings.json file, and data feeds and generate the .panelpkg file inside of the panel-package folder. This .panelpkg file can then be imported into the Panels Desktop client for testing.
 
 # EliteDangerous
