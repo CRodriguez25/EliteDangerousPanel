@@ -136,7 +136,12 @@
       "Tab 2 Header 2":"Counter Measures",
       "Tab 2 Header 3":"Combat Systems",
       "Tab 1": "Navigation",
-      "Tab 2": "Combat"
+      "Tab 2": "Combat",
+      "Hull Health Label": "Hull Health",
+      "Shield Health Label": "Shield Health",
+      "Faction Name": "Faction",
+      "Legal Status": "Legal Status",
+      "Bounty": "Bounty"
    },
 
    "Program":"C:\\Program Files (x86)\\Steam\\steamapps\\common\\Elite Dangerous\\Products\\elite-dangerous-64\\EliteDangerous64.exe"

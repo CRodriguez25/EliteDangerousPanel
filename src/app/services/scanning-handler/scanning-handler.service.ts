@@ -5,7 +5,8 @@ import { MatDialog } from '@angular/material';
 
 @Injectable()
 export class ScanningHandlerService implements IEventFeedSubscriber {
-    constructor(private modalService: MatDialog, private eventFeedService: EventFeedService) { }
+    constructor(private modalService: MatDialog, 
+        private eventFeedService: EventFeedService) { }
 
     start(): void {
         this.eventFeedService.subscribe(this, ["Scan"]);

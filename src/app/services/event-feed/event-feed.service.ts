@@ -22,6 +22,15 @@ export class EventFeedService {
         });
     }
 
+    public unsubscribe(subscriber: IEventFeedSubscriber): void
+    {
+        for (let key in this._eventSubscriptions) {
+            var subscribers = this._eventSubscriptions[key];
+            if (subscribers.has(subscriber)) 
+                subscribers.delete(subscriber);
+        }
+    }
+
     private receiveData(event): void {
         this.zone.run(() => {
             var eventType = event.event;

@@ -23,11 +23,9 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
     }
 
     pressButton(content) {
+        console.log("click");
   	    this.clicked = true;	
-  	    setTimeout(() => {
-  		    this.clicked = false;
-    	}, 105);
-
+  	    setTimeout(() => this.unclick(), 105);
         if (this.onButtonPressed != null) {
             this.onButtonPressed.emit();
         }
@@ -37,13 +35,20 @@ export class PanelButtonComponent implements OnInit, IEventFeedSubscriber {
         }
     }
 
+    unclick() {
+        console.log("unclick");
+        this.clicked = false;
+    }
+
     receiveEvent(event) {
         if (this.glitching) return;
         this.glitching = true;
-        setTimeout(() => {
-            this.glitching = false;
-            this.delay = this.getDelay();
-        }, 5000);
+        setTimeout(() => this.stopGlitching(), 5000);
+    }
+
+    stopGlitching() {
+        this.glitching = false;
+        this.delay = this.getDelay();
     }
 
     getDelay() {

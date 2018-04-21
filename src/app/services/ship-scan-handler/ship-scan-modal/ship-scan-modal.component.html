@@ -1,0 +1,98 @@
+<div class="row">
+    <div class="col-10">
+            <div *ngIf="shipScanEvent.ScanStage == 0" class="header scan-event-header">{{shipScanEvent.Ship_Localised | capitalize}}</div>
+            <div *ngIf="shipScanEvent.ScanStage >= 1" [class.wanted]="shipScanEvent.Bounty != null" class="header scan-event-header">{{shipScanEvent.PilotName_Localised}} ({{shipScanEvent.PilotRank}}) - {{shipScanEvent.Ship_Localised | capitalize}}</div>
+        </div>
+    <div class="col-2">
+        <img style="height: 5vh;" class="right" src='assets/radar.png'/>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <hr/>
+    </div>
+</div>
+<div class="row scan-content">
+    <div *ngIf="shipScanEvent.ScanStage >= 2" class="col-12 loading-container">
+        <div class="row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sub-header bar-header">$$Hull Health Label$$</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <mat-progress-bar class="health" mode="determinate" value="{{shipScanEvent.HullHealth}}"></mat-progress-bar>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12 small-header" style="text-align: right">
+                        {{ shipScanEvent.HullHealth | number : '1.2-2'}} / 100.00
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="sub-header bar-header">$$Shield Health Label$$</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <mat-progress-bar class="health" mode="determinate" value="{{shipScanEvent.ShieldHealth}}"></mat-progress-bar>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 small-header" style="text-align: right">
+                        {{ shipScanEvent.HullHealth | number : '1.2-2'}} / 100.00
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="shipScanEvent.ScanStage == 3" class="details row">
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4"> 
+                        <div class="small-header right">$$Faction Name$$</div>
+                    </div>
+                    <div class="col-8"> 
+                        <div class="small-header">{{shipScanEvent.Faction}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4"> 
+                        <div class="small-header right">$$Legal Status$$</div>
+                    </div>
+                    <div class="col-8"> 
+                        <div class="small-header">{{shipScanEvent.LegalStatus}}</div>
+                    </div>
+                </div>
+                <div *ngIf="shipScanEvent.Bounty != null" class="row">
+                    <div class="col-4"> 
+                        <div class="small-header right wanted">$$Bounty$$</div>
+                    </div>
+                    <div class="col-8"> 
+                        <div class="small-header wanted">{{shipScanEvent.Bounty}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="shipScanEvent.ScanStage >= 0 && shipScanEvent.ScanStage < 3" class="col-12 loading-container">
+        <div>
+            <img class="ship-scan-loader" src="assets/loading.gif">
+        </div>
+    </div>
+</div>
+<div class="row action-bar">
+    <div class="col-12">
+        <app-panel-button 
+            [buttonLabel]="'$$Dismiss Popup$$'" 
+            (onButtonPressed)="close()">
+        </app-panel-button>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+.action-bar {
+    margin-top: 5vh;
+    height: 13vh;
+}
+
+.ship-scan-loader {
+    height: 10vh;
+}
+
+.loading-container {
+    text-align: center;
+    padding: 5vh;
+}
+
+.bar-header {
+    margin-bottom: 1vh;
+}
+
+.details {
+    margin-top: 4vh;
+}
+
+.wanted {
+    color: red !important;
+    text-shadow: 0px 0px 10px red;
+}
+
+.scan-event-header {
+    font-size: 2vw !important;
+}

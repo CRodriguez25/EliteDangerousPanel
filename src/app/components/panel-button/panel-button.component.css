@@ -5,15 +5,24 @@
     color: rgba(255, 113, 0, 1) !important;
     height: 80%;
     border: 2px solid #c3611f;
-    font-size: 2vw;
 }
 
+.btn:active,
+.btn:focus,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+  -moz-box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+  box-shadow: inset 0px 0px 28px -1px rgba(255,113,0,1);
+}
 
 .btn.clicked {
 	-webkit-appearance: none;
 	outline:0;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+    border: none;
     box-shadow: none;
 }
 
