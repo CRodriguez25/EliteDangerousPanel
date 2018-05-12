@@ -11,24 +11,24 @@
   <script>
   window.shouldShowDebug = false;
   window.addEventListener('click', function (evt) {
-    if (evt.detail === 3) {
-        var event = JSON.parse(window.prompt("Enter debug event"));
-  		if(event == null) return;
-  		window.PanelsApp.ReceiveData(event);
-    }
+    // if (evt.detail === 3) {
+    //     var event = JSON.parse(window.prompt("Enter debug event"));
+  	// 	if(event == null) return;
+  	// 	window.PanelsApp.ReceiveData(event);
+    // }
 });
   window.addEventListener('touchstart', function (evt) {
-    if (evt.touches.length === 4) {
-    	window.shouldShowDebug = true;
-    }
+    // if (evt.touches.length === 4) {
+    // 	window.shouldShowDebug = true;
+    // }
   });
   window.addEventListener('touchend', function (evt) {
   	if (evt.touches.length === 0 && window.shouldShowDebug)
   	{
-  		window.shouldShowDebug = false;
-  		var event = JSON.parse(window.prompt("Enter debug event"));
-  		if(event == null) return;
-  		window.PanelsApp.ReceiveData(event);
+  		// window.shouldShowDebug = false;
+  		// var event = JSON.parse(window.prompt("Enter debug event"));
+  		// if(event == null) return;
+  		// window.PanelsApp.ReceiveData(event);
   	}
   });
   </script>
