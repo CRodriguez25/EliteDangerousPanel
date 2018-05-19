@@ -13,6 +13,7 @@ export class MessageHandlerService implements IEventFeedSubscriber  {
 
     receiveEvent(event: any): void {
         var message = this.getMessage(event)
+        if (message == null) return;
         this.snackBar.open(message, null, {
             politeness: "polite",
             horizontalPosition: "right",
@@ -23,6 +24,7 @@ export class MessageHandlerService implements IEventFeedSubscriber  {
 
     getMessage(event: any): string {
         var from = event.From_Localised || event.From;
+        if (from == null) return null;
         return "Received Message From: " + from;
     }
 }
