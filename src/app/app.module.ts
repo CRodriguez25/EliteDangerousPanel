@@ -21,6 +21,7 @@ import { SystemRepoService } from './services/system-repository/system-repo.serv
 import { MessageHandlerService } from './services/message-handler/message-handler.service';
 import { ShipScanModalComponent } from './services/ship-scan-handler/ship-scan-modal/ship-scan-modal.component';
 import { ShipScanHandlerService } from './services/ship-scan-handler/ship-scan-handler.service';
+import { StatusFeedService } from './services/status-feed/status-feed.service';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ShipScanHandlerService } from './services/ship-scan-handler/ship-scan-h
     SystemInfoService, 
     SystemRepoService, 
     ShipScanHandlerService,
-    DecimalPipe],
+    DecimalPipe,
+    StatusFeedService],
   bootstrap: [AppComponent],
   entryComponents: [ScanModalComponent, 
     BountyModalComponent, 

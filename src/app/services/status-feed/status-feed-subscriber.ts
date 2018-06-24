@@ -4,7 +4,7 @@ export interface IStatusFeedSubscriber {
 
 export interface IStatusChange
 {
-    type: StatusChangeType;
+    type: string;
     newValue: boolean;
 }
 

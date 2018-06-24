@@ -4,6 +4,7 @@ import { BountyHandlerService } from './services/bounty-handler/bounty-handler.s
 import { SystemInfoService } from './services/system-info-handler/system-info.service';
 import { MessageHandlerService } from './services/message-handler/message-handler.service';
 import { ShipScanHandlerService } from './services/ship-scan-handler/ship-scan-handler.service';
+import { StatusFeedService } from './services/status-feed/status-feed.service';
 
 @Component({
   selector: 'app-root',
@@ -17,12 +18,14 @@ export class AppComponent  {
       private bountyHandler: BountyHandlerService,
       private systemInfoService: SystemInfoService,
       private messageHandlerService: MessageHandlerService,
-      private shipScanHandlerService: ShipScanHandlerService
+      private shipScanHandlerService: ShipScanHandlerService,
+      private statusFeedService: StatusFeedService
     ) {
       scanningHandler.start();
       bountyHandler.start();
       systemInfoService.start();
       messageHandlerService.start();
       shipScanHandlerService.start();
+      statusFeedService.start();
   }
 }
